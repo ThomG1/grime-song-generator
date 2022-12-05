@@ -1,6 +1,6 @@
 html {
     font-size: 10px;
-    background: url('assets/images/subway.jpg') bottom center;
+    background: url('../images/subway.jpg') no-repeat center center;
     background-size: cover;
   }
   
