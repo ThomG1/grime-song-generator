@@ -27,6 +27,7 @@ html {
   border: .4rem solid black;
   display:flex;
   text-transform: capitalize;
+  color:  #f46703;
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -56,7 +57,7 @@ html {
     transition: all .07s ease;
     width: 10rem;
     text-align: center;
-    color: white;
+    color:  #f46703;
     background: rgba(0,0,0,0.4);
     text-shadow: 0 0 .7rem black;
   }
