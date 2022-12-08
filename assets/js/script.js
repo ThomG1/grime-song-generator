@@ -1,21 +1,40 @@
 function removeTransition(e) {
-    if (e.propertyName !== 'transform') return;
-    e.target.classList.remove('playing');
+  if (e.propertyName !== 'transform') return;
+  e.target.classList.remove('playing');
+}
+
+function playSound(e) {
+
+  if (e.target.parentNode.classList.contains("key")) {
+    e = e.target.parentNode;
+  } else if (e.target.classList.contains('key')) {
+    e = e.target;
   }
 
-  function playSound(e) {
-    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
-    const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
-    if (!audio) return;
+  let keycode;
 
-    key.classList.add('playing');
-    audio.currentTime = 0;
-    audio.play();
+  if (e instanceof KeyboardEvent) {
+    keycode = e.key;
+  } else if (e.classList.contains('key')) {
+    keycode = e.dataset.key;
   }
+ 
+  const audio = document.querySelector(`audio[data-key="${keycode}"]`);
+  const key = document.querySelector(`div[data-key="${keycode}"]`);
+  if (!audio) return;
 
-  const keys = Array.from(document.querySelectorAll('.key'));
-  keys.forEach((key) => {
+  key.classList.add('playing');
+  audio.currentTime = 0;
+  audio.play();
 
-    key.addEventListener('transitionend', removeTransition)
-  });
-  window.addEventListener('keydown', playSound, false);
+  console.log('activated')
+}
+
+
+const keys = Array.from(document.querySelectorAll('.key'));
+keys.forEach((key) => {
+
+  key.addEventListener('transitionend', removeTransition);
+  key.addEventListener("click", playSound);
+});
+window.addEventListener('keydown', playSound, false);
