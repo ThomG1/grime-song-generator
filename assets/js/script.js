@@ -40,7 +40,6 @@ keys.forEach((key) => {
 window.addEventListener('keydown', playSound, false);
 
 
-
 var audio = document.getElementById('audio');
 var playPauseBTN = document.getElementById('playPauseBTN');
 var count = 0;
@@ -64,3 +63,6 @@ function stop(){
 	audio.currentTime = 0;
 	playPauseBTN.innerHTML = "Play ►";
 }
+
+
+
