@@ -88,7 +88,7 @@ html {
   /* Drum loops  */
 
   .music-container {
-    background-color: #fff;
+    background-color: rgba(0,0,0,0.4);
     border-radius: 15px;
     box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
     display: flex;
@@ -107,7 +107,7 @@ html {
   
   .img-container::after {
     content: '';
-    background-color: #fff;
+    background-color: rgba(0,0,0,0.4);
     border-radius: 50%;
     position: absolute;
     bottom: 100%;
@@ -152,7 +152,7 @@ html {
   }
   
   .action-btn {
-    background-color: #fff;
+    background-color: rgba(0,0,0,0.4);
     border: 0;
     color: #dfdbdf;
     font-size: 20px;
@@ -172,7 +172,7 @@ html {
   }
   
   .music-info {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color:rgba(0,0,0,0.4);
     border-radius: 15px 15px 0 0;
     position: absolute;
     top: 0;
@@ -195,7 +195,7 @@ html {
   }
   
   .progress-container {
-    background: #fff;
+    background: rgba(0,0,0,0.4);
     border-radius: 5px;
     cursor: pointer;
     margin: 10px 0;
