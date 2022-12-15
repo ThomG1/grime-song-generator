@@ -1,107 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
-    <title>Grime Song Generator</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+  <title>Grime Song Generator</title>
 
 </head>
+
 <body>
   <header class="main-heading">
-  <h2>grime song generator</h2>
-</header>
+    <h2>grime song generator</h2>
+  </header>
 
-    <div class="keys">
-        <div data-key="1" class="key">
-          <kbd>1</kbd>
-          <span class="sample">Synth Sound 1</span>
-        </div>
-        <div data-key="2" class="key">
-          <kbd>2</kbd>
-          <span class="sample">Synth Sound 2 </span>
-        </div>
-        <div data-key="3" class="key">
-          <kbd>3</kbd>
-          <span class="sample">Synth Sound 3</span>
-        </div>
-        <div data-key="4" class="key">
-          <kbd>4</kbd>
-          <span class="sample">Synth Sound 4</span>
-        </div>
-        <div data-key="5" class="key">
-          <kbd>5</kbd>
-          <span class="sample">Synth Sound 5</span>
-        </div>
-        <div data-key="54" class="key">
-          <kbd>6</kbd>
-          <span class="sample">Synth Sound 6</span>
-        </div>
-        <div data-key="55" class="key">
-          <kbd>7</kbd>
-          <span class="sample">Synth Sound 7</span>
-        </div>
-        <div data-key="56" class="key">
-          <kbd>8</kbd>
-          <span class="sample">Synth Sound 8</span>
-        </div>
-        <div data-key="57" class="key">
-          <kbd>9</kbd>
-          <span class="sample">Synth Sound 9</span>
-        </div>
-        <div data-key="57" class="key">
-          <kbd>10</kbd>
-          <span class="sample">Synth Sound 10</span>
-        </div>
+  <!-- Playground -->
+
+  <div class="sound-selector">
+    <label for="soundsets">Sound Sets</label>
+      <select name="soundsets" id="soundsets">
+        <option value="g-sounds">Sound Set 1</option>
+        <option value="b-sounds">Sound Set 2</option>
+        <option value="s-sounds">Sound Set 3</option>
+      </select>
+  </div>
+  <div class="keys">
+    <div data-key="1" class="key">
+      <kbd>1</kbd>
+      <span class="sample">Synth Sound 1</span>
+    </div>
+    <div data-key="2" class="key">
+      <kbd>2</kbd>
+      <span class="sample">Synth Sound 2 </span>
+    </div>
+    <div data-key="3" class="key">
+      <kbd>3</kbd>
+      <span class="sample">Synth Sound 3</span>
+    </div>
+    <div data-key="4" class="key">
+      <kbd>4</kbd>
+      <span class="sample">Synth Sound 4</span>
+    </div>
+    <div data-key="5" class="key">
+      <kbd>5</kbd>
+      <span class="sample">Synth Sound 5</span>
+    </div>
+    <div data-key="54" class="key">
+      <kbd>6</kbd>
+      <span class="sample">Synth Sound 6</span>
+    </div>
+    <div data-key="55" class="key">
+      <kbd>7</kbd>
+      <span class="sample">Synth Sound 7</span>
+    </div>
+    <div data-key="56" class="key">
+      <kbd>8</kbd>
+      <span class="sample">Synth Sound 8</span>
+    </div>
+    <div data-key="57" class="key">
+      <kbd>9</kbd>
+      <span class="sample">Synth Sound 9</span>
+    </div>
+    <div data-key="57" class="key">
+      <kbd>10</kbd>
+      <span class="sample">Synth Sound 10</span>
+    </div>
+  </div>
+
+
+
+
+
+
+  <audio data-key="1" src="assets/sounds/g-sounds/g-sound-1.mp3"></audio>
+  <audio data-key="2" src="assets/sounds/g-sounds/g-sound-2.mp3"></audio>
+  <audio data-key="3" src="assets/sounds/g-sounds/g-sound-3.mp3"></audio>
+  <audio data-key="4" src="assets/sounds/g-sounds/g-sound-4.mp3"></audio>
+  <audio data-key="5" src="assets/sounds/g-sounds/g-sound-5.mp3"></audio>
+  <audio data-key="6" src="assets/sounds/g-sounds/g-sound-6.mp3"></audio>
+  <audio data-key="55" src=""></audio>
+  <audio data-key="56" src=""></audio>
+  <audio data-key="57" src=""></audio>
+  <audio data-key="58" src=""></audio>
+
+  <!-- Loop player -->
+  <div class="music-container" id="music-container">
+    <div class="music-info">
+      <h4 id="title"></h4>
+      <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
       </div>
+    </div>
 
-      
-      
+    <audio src="assets/sounds/d-loop-1.mp3" id="audio"></audio>
 
-      
-    
-      <audio data-key="1" src="assets/sounds/g-sound-1.wav"></audio>
-      <audio data-key="2" src="assets/sounds/g-sound-2.wav"></audio>
-      <audio data-key="3" src="assets/sounds/g-sound-3.wav"></audio>
-      <audio data-key="4" src="assets/sounds/g-sound-4.wav"></audio>
-      <audio data-key="5" src="assets/sounds/g-sound-5.wav"></audio>
-      <audio data-key="54" src=""></audio>
-      <audio data-key="55" src=""></audio>
-      <audio data-key="56" src=""></audio>
-      <audio data-key="57" src=""></audio>
-      <audio data-key="58" src=""></audio>
+    <div class="img-container">
+      <img src="assets/images/drum-art-1.jpg" alt="music-cover" id="cover" />
+    </div>
+    <div class="navigation">
+      <button id="prev" class="action-btn">
+        <i class="fas fa-backward"></i>
+      </button>
+      <button id="play" class="action-btn action-btn-big">
+        <i class="fas fa-play"></i>
+      </button>
+      <button id="next" class="action-btn">
+        <i class="fas fa-forward"></i>
+      </button>
+    </div>
+  </div>
 
 
-      <div class="music-container" id="music-container">
-        <div class="music-info">
-          <h4 id="title"></h4>
-          <div class="progress-container" id="progress-container">
-            <div class="progress" id="progress"></div>
-          </div>
-        </div>
-  
-        <audio src="assets/sounds/d-loop-1.mp3" id="audio"></audio>
-  
-        <div class="img-container">
-          <img src="assets/images/drum-art-1.jpg" alt="music-cover" id="cover" />
-        </div>
-        <div class="navigation">
-          <button id="prev" class="action-btn">
-            <i class="fas fa-backward"></i>
-          </button>
-          <button id="play" class="action-btn action-btn-big">
-            <i class="fas fa-play"></i>
-          </button>
-          <button id="next" class="action-btn">
-            <i class="fas fa-forward"></i>
-          </button>
-        </div>
-      </div>
-    
+  <script src="assets/js/script.js"></script>
 
-    <script src="assets/js/script.js"></script>
-    
 </body>
+
 </html>
