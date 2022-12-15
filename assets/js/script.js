@@ -1,3 +1,16 @@
+
+const selectElement = document.querySelector('.soundsets');
+
+selectElement.addEventListener('change', (event) => {
+  const result = document.querySelector('.choice');
+  result.textContent = `${event.target.value}`;
+  console.log('change');
+  console.log(event.target.value);
+});
+
+
+
+
 function removeTransition(e) {
   if (e.propertyName !== 'transform') return;
   e.target.classList.remove('playing');
