@@ -1,108 +1,288 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Grime-Song-Generator
 
-Welcome ThomG1,
+The Grime Song Generator is a tool for music producers, makers and fans to explore the sounds of the 'Grime' genre. This application provides a sketchpad for users to quickly create melodies and compositions, with the option of doing so over a wide choice of backing tracks in order to get a feel for the genre, as well as the creative and techical processes involved in the creation of music. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Mock Up](documentation/screenshots/mockups1.jpg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+The application consists of four sections: the instructions section, the sound selection section, the playground section, and the loop player section.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience (UX)
 
-`python3 -m http.server`
+- __Design Choices__
 
-A blue button should appear to click: _Make Public_,
+The overall feel of the site design is gritty, dark and minimal as this matches the style and aethetic of the 'Grime' genre.  
 
-Another blue button should appear to click: _Open Browser_.
+- __Font__
+The font used throughout the site is Chakra Petch to give the site an industrial feel, achieved by the lack of curves in the letters. This also works in contrast to the heavily curved, abstract shapes used in the background.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __Icons__
+The icons used from font awesome were chosen for their simplicity to ensure all users can identify them.
 
-A blue button should appear to click: _Make Public_,
+- __Colours__
 
-Another blue button should appear to click: _Open Browser_.
+The colours used are intentionally minimal. The primary colours used in the background are black and grey. To contrast used, the font throughout is white. 
+The other colours featured in the website are from the release artworks, or artist profiles. There is no set colour scheme for these as they are dependant on the artist, however this in itself is a stylistic choice that highlights the individuality and uniqueness of the artists against the minimal colour scheme of the main website. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Site Colours](documentation/screenshots/site-colours.png)
 
-To log into the Heroku toolbelt CLI:
+- __First Time Users__
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+1.As a first time user, I want to easily understand the main purpose of the site and the record labels role as a promoter of existing artists, and a platform for emerging artists.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+2.As a first time user, I want to be able to get good visual representation of the musical content released without having heard the music, from the aesthetic of the website, artist profiles and release artworks.
 
-------
+3.As a first time user, I want clear and distinguishable sections that are easy to find and move between. 
 
-## Release History
+4.As a first time user, I want to be able to leave the website to find out more via social media or access the music directly.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- __Returning Users__
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+1. As a returning user, I want to easily find the links I didn't use the first time, for instance if I checked out the social media, I now want to find the music.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+2. As a returning user, I want to be easily able to find what updated have occurred since my last visit. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+3. As a returning user, I want to know how to submit music, and see how I'll be represented. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Wireframes
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+As part of the planning, I completed the below Wireframes using Balsamiq: 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Wireframes](documentation/wireframes/allwireframes.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Features 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Existing Features
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- __Navigation Bar__
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Artist page and Demo page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Nav Bar](documentation/screenshots/navbar.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- __The Logo__
+ 
+  - Whilst part of the Navbar, it's important to highlight the logo on the left hand side. The image contains the signature Replica Recordings image, serving as both the quickest possible way for a user to identify the brand, and an eye-catching anchor at the top of the page that will return the user to the home page from other parts of the site. 
 
-------
+  ![Logo](assets/images/replicalogo.jpg)
+  
 
-## FAQ about the uptime script
+- __Title Section__
 
-**Why have you added this script?**
+  - The landing includes a banner with text overlay to allow the user to see the actual name and description of the brand for the first time. 
+  - This section involves a  transulcent banner over a deliberately abstract yet eye catching image for the text and description while also helping to create an initial atmosphere for the site.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+![Home Page](documentation/screenshots/homepage.png)
 
-**How will this affect me?**
+- __About Section__
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+  - The 'About' section will allow the user to quickly immerse themselves in the ethos of the label and encourage users to explore the other sections of the site.
+  - This user will quickly understand the value the label places on it's artists and the music it releases and be encouraged to do the same. This should result in the user to begin exploring the artists, or be inspired to get involved in the label themselves. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+  ![About](documentation/screenshots/about-screenshot.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- __Latest Section__
 
-**So….?**
+  - This section will allow the user to see exactly how the label operates on a day to day basis, it gives concise summaries of the latest releases, events and news.  
+  - The busy schedule of releases, events and news will be regularly updated, this will encourage the user to regularly return to the site and serves to demonstrate the impressive and involved work rate of the label and artists. 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+    ![Latest](documentation/screenshots/latest-screenshot.png)
+  
+  - __Releases Section__
 
-**Can I opt out?**
+  - This section will provider the user with a sample of some of the artwork from the latest Replica Recordings releases. The aim is to give a visual representation of the primary content the label puts out. 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+     ![Releases](documentation/screenshots/releases-screenshot.png)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- __The Footer__ 
 
-**Anything more?**
+  - The footer section is split in two halves. The left half includes links to the social media sites for Replica Recordins under a 'Find Us' heading. The right half includes links to streaming platforms so they user can engage directly with the content being released by the label and it's artists. All links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it directs them straight to the musical content, and social media links to follow and engage with on an ongoing basis. 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+![Footer](documentation/screenshots/footer.png)
 
----
+- __Artist Page__
 
-Happy coding!
+  - This page will give the user pictures of the artists or their releases along with a text blurb explaining key information about each one. 
+  - This section is valuable to the user as they will be able to view the artists themselves, as will as specific information about them, and as a prospective artist be able to preview how they would be depicted on the site should they become part of the label.  
+
+![Artists](documentation/screenshots/artists.png)
+
+- __Demo Page__
+
+  - This page will allow the user to become familiar with how the process of signing music works through Replica Recordings. The aim of this page is to demonstrate to prospective artists the clear, and simple process of how to submit music, and gives insight to general users and fans by including a summary of the approach in the 'If we like it, we'll sign it' section.
+
+![Demo Page](documentation/screenshots/demopage.png)
+
+## Technologies Used
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5) - Used for page content
+- [CSS](https://en.wikipedia.org/wiki/CSS) - Used for design and layout
+- [Bootstrap](https://getbootstrap.com) - Used for responsiveness and carousel
+- [Git](https://git-scm.com/) - Used for version control
+- [GitHub](https://github.com/) - Used for online storage of code
+- [Gitpod](https://www.gitpod.io)- Used for cloud-based IDE editor
+- [Balsamiq](https://balsamiq.com/) - Used for wireframes
+- [Font Awesome](https://fontawesome.com/) - Used for icons
+- [Hover.css](http://ianlunn.github.io/Hover/) - Used for hover effects
+
+
+## Testing 
+
+
+### Validator Testing 
+
+- HTML
+ No errors were returned when passing through the official [W3C validator for index.html](https://validator.w3.org/nu/?doc=https://thomg1.github.io/Replica-Recordings/index.html)
+
+  ![Index-validation](documentation/screenshots/index-val.png)
+
+  [W3C validator for artists.html](https://validator.w3.org/nu/?doc=https://thomg1.github.io/Replica-Recordings/artists.html)
+
+  ![Artists-validation](documentation/screenshots/artists-val.png)
+
+    [W3C validator for demos.html](https://validator.w3.org/nu/?doc=https://thomg1.github.io/Replica-Recordings/demos.html)
+  ![Demos-validation](documentation/screenshots/demos-val.png)
+
+
+- CSS
+  
+  Some errors were found when passing through the official CSS validator, although on investigation, it appears the errors displayed are a result of bootstrap, rather than errors in the CSS code itself
+   [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fthomg1.github.io%2FReplica-Recordings)
+  ![css-validation](documentation/screenshots/css-val.png)
+
+  When the code itself is copied and pasted into the validator, this displays no errors: 
+
+    ![css-validation](documentation/screenshots/css-val-2.png)
+
+  ### Responsiveness
+
+  - The site has been tested for responsiveness on desktop, tablet and phone sized screens.
+ 
+  - Home Page
+
+    ![Home-desktop](documentation/screenshots/firefox-home.png)
+   
+    ![Home-tablet](documentation/screenshots/home-tablet.png)
+   
+    ![Home-phone](documentation/screenshots/home-phone.jpeg)
+
+  - Artists Page
+
+    ![Artists-desktop](documentation/screenshots/firefox-artists.png)
+
+    ![Artists-tablet](documentation/screenshots/artists-tablet.png)
+
+    ![Artists-phone](documentation/screenshots/artists-phone.jpeg)
+
+  - Demos Page
+
+    ![Demos-desktop](documentation/screenshots/firefox-demos.png)
+
+    ![Demos-tablet](documentation/screenshots/demos-tablet.png)
+
+    ![Demos-phone](documentation/screenshots/demos-phone.jpeg)
+
+  ### Browser Compatability
+
+  All pages of the site have been tested on the browsers Chrome, Firefox and Safari: 
+
+  - Chrome
+
+     ![Chrome-home](documentation/screenshots/chrome-home.png)
+
+     ![Chrome-artists](documentation/screenshots/chrome-artists.png)
+
+     ![Chrome-demos](documentation/screenshots/chrome-demos.png)
+
+
+  - Firefox 
+
+     ![Firefox-home](documentation/screenshots/firefox-home.png)
+
+     ![Firefox-artists](documentation/screenshots/firefox-artists.png)
+
+     ![Firefox-demos](documentation/screenshots/firefox-demos.png)
+
+  - Safari
+
+     ![Safari-Home](documentation/screenshots/safari-home.png)
+
+     ![Safari-artists](documentation/screenshots/safari-artists.png)
+
+     ![Safari-demos](documentation/screenshots/safari-demos.png)
+
+  ### Bugs
+
+  There are no bugs that I am aware of. 
+
+  ### Testing User Stories
+
+  - __First Time Users__
+
+1.As a first time user, I am able to easily understand the main purpose of the site and the record labels role as a promoter of existing artists, and a platform for emerging artists.
+
+ ![About](documentation/screenshots/about-screenshot.png)
+
+2.As a first time user, I am able to get good visual representation of the musical content released without having heard the music, from the aesthetic of the website, artist profiles and release artworks.
+
+ ![Releases](documentation/screenshots/releases-screenshot.png)
+
+3.As a first time user, I am able to get a clear and distinguishable sections that are easy to find and move between. 
+
+![Nav Bar](documentation/screenshots/navbar.png)
+
+4.As a first time user, I am able to leave the website to find out more via social media or access the music directly.
+
+![Footer](documentation/screenshots/footer.png)
+
+- __Returning Users__
+
+1. As a returning user, I can easily find the links I didn't use the first time, for instance if I checked out the social media, I now want to find the music.
+
+2. As a returning user, I can easily find what updated have occurred since my last visit. 
+
+ ![Latest](documentation/screenshots/latest-screenshot.png)
+
+3. As a returning user, I know how to submit music, and see how I'll be represented. 
+
+![Demo Page](documentation/screenshots/demopage.png)
+
+
+
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/ThomG1/Replica-Recordings), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://thomg1.github.io/Replica-Recordings)
+
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/ThomG1/Replica-Recordings.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ThomG1/Replica-Recordings)
+
+
+## Credits 
+
+### Content 
+
+- [Bootstrap](https://getbootstrap.com) version 5.2 has been used throughout for responsiveness.
+- Partial sections of the code were taken from Code Institute's [Love Running](https://codeinstitute.net/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=62188641240&hsa_ad=581730217381&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=EAIaIQobChMIzrnC7PL5-gIVjYFQBh3IeAm_EAAYASAAEgIoHvD_BwE) and Resume Projects.
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+
+### Media
+
+- All photos and images used throughout the Replica Recordings website are owned by https://github.com/ThomG1. 
