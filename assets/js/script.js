@@ -1,14 +1,18 @@
+// Soundset Selector
+
+let currentSounds = 'g-sounds';
 
 const selectElement = document.querySelector('.soundsets');
 
 selectElement.addEventListener('change', (event) => {
   const result = document.querySelector('.choice');
   result.textContent = `${event.target.value}`;
-  console.log('change');
-  console.log(event.target.value);
+  currentSounds = event.target.value;
+
 });
 
 
+// Playground
 
 
 function removeTransition(e) {
