@@ -10,7 +10,7 @@ a:focus {
 
 
 html {
-    font-size: 10px;
+    font-size: 12px;
     background: url('../images/subway.jpg') no-repeat center center;
     background-size: cover;
   }
@@ -31,6 +31,7 @@ html {
 .main-heading {
   border: .4rem solid black;
   display:flex;
+  position:relative;
   text-transform: capitalize;
   color:  #f46703;
   border-radius: .5rem;
@@ -55,7 +56,9 @@ html {
   
   .key {
     border: .4rem solid black;
-    border-radius: .5rem;
+    background-color: black;
+    text-shadow: 0 0 .7rem black;
+    border-radius: .9rem;
     margin: 1rem;
     font-size: 1.5rem;
     padding: 1rem .5rem;
@@ -63,8 +66,7 @@ html {
     width: 10rem;
     text-align: center;
     color:  #f46703;
-    background: rgba(0,0,0,0.4);
-    text-shadow: 0 0 .7rem black;
+
   }
   
   .playing {
@@ -90,7 +92,8 @@ html {
   .music-container {
     background-color: rgba(0,0,0,0.4);
     border-radius: 15px;
-    box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
+    border: .4rem solid black;
+    box-shadow: 0 20px 20px 0  #f46703;
     display: flex;
     padding: 20px 30px;
     position: relative;
@@ -108,7 +111,7 @@ html {
   .img-container::after {
     content: '';
     background-color: rgba(0,0,0,0.4);
-    border-radius: 50%;
+    border-radius: 10px;
     position: absolute;
     bottom: 100%;
     left: 50%;
@@ -154,7 +157,7 @@ html {
   .action-btn {
     background-color: rgba(0,0,0,0.4);
     border: 0;
-    color: #dfdbdf;
+    color: #f46703;
     font-size: 20px;
     cursor: pointer;
     padding: 10px;
@@ -163,7 +166,7 @@ html {
   }
   
   .action-btn.action-btn-big {
-    color: #cdc2d0;
+    color: #f46703;
     font-size: 30px;
   }
   
