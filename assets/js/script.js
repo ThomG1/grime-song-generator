@@ -9,6 +9,15 @@ selectElement.addEventListener('change', (event) => {
   result.textContent = `${event.target.value}`;
   currentSounds = event.target.value;
 
+  const keyGroups = {
+    'g-sounds': [1, 2, 3, 4],
+    'b-sounds': [5, 6, 7, 8],
+}
+
+for (let i=0; i < keyGroups[currentSounds].length; i++) {
+  keys[i].key = keyGroups[currentSounds][i];
+}
+
 });
 
 
