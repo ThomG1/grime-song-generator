@@ -10,13 +10,13 @@ selectElement.addEventListener('change', (event) => {
   currentSounds = event.target.value;
 
   const keyGroups = {
-    'g-sounds': [1, 2, 3, 4, 5 ,6],
-    'b-sounds': [1, 2, 3, 4,5 ,6],
-    's-sounds': [1, 2, 3, 4,5 ,6],
+    'g-sounds': [1, 2, 3, 4,],
+    'b-sounds': [5, 6, 7, 8,],
+    's-sounds':[9,0,o,p],
 }
 
 for (let i=0; i < keyGroups[currentSounds].length; i++) {
-  keys[i].key = keyGroups[currentSounds][i];
+  keys[i].setAttribute("data-key", keyGroups[currentSounds][i]);
 }
 
 });
