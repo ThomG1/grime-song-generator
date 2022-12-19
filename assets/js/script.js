@@ -12,7 +12,7 @@ selectElement.addEventListener('change', (event) => {
   const keyGroups = {
     'g-sounds': [1, 2, 3, 4,],
     'b-sounds': [5, 6, 7, 8,],
-    's-sounds':[9,0,o,p],
+  
 }
 
 for (let i=0; i < keyGroups[currentSounds].length; i++) {
