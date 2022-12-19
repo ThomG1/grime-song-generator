@@ -142,7 +142,7 @@ function nextSong() {
   playSong();
 }
 
-/*
+
 // Update progress bar
 function updateProgress(e) {
   const { duration, currentTime } = e.srcElement;
@@ -188,8 +188,6 @@ function DurTime (e) {
 
 	get_sec (currentTime,sec);
 
-	// change currentTime DOM
-	currTime.innerHTML = min +':'+ sec;
 
 	// define minutes duration
 	let min_d = (isNaN(duration) === true)? '0':
@@ -212,13 +210,6 @@ function DurTime (e) {
 		 	sec_d = sec_d <10 ? '0'+sec_d:sec_d;
 		 }
 	} 
-
-	// define seconds duration
-	
-	get_sec_d (duration);
-
-	// change duration DOM
-	durTime.innerHTML = min_d +':'+ sec_d;
 		
 };
 
@@ -233,7 +224,7 @@ playBtn.addEventListener('click', () => {
   }
 });
 
-// Change song
+// Change loop
 prevBtn.addEventListener('click', prevSong);
 nextBtn.addEventListener('click', nextSong);
 
@@ -251,4 +242,4 @@ audio.addEventListener('timeupdate',DurTime);
 
 
 
-*/
+
