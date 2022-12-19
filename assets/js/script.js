@@ -10,8 +10,9 @@ selectElement.addEventListener('change', (event) => {
   currentSounds = event.target.value;
 
   const keyGroups = {
-    'g-sounds': [1, 2, 3, 4],
-    'b-sounds': [5, 6, 7, 8],
+    'g-sounds': [1, 2, 3, 4, 5 ,6],
+    'b-sounds': [1, 2, 3, 4,5 ,6],
+    's-sounds': [1, 2, 3, 4,5 ,6],
 }
 
 for (let i=0; i < keyGroups[currentSounds].length; i++) {
@@ -140,6 +141,7 @@ function nextSong() {
   playSong();
 }
 
+/*
 // Update progress bar
 function updateProgress(e) {
   const { duration, currentTime } = e.srcElement;
@@ -248,4 +250,4 @@ audio.addEventListener('timeupdate',DurTime);
 
 
 
-
+*/
