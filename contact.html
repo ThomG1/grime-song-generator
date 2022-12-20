@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css">
+    <link rel="icon" sizes="32x32" href="assets/images/replicalogo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Replica Recordings</title>
+</head>
+
+<body class="demosbody">
+    <div class="demo-container">
+        <!-- Header -->
+        <header>
+            <a class="main-logo" href="index.html">
+                <div id="logo" class="hvr-backward"></div>
+            </a>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-black">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menu">
+                            <li class="nav-item">
+                                <a class="nav-link active hvr-backward" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hvr-backward" href="artists.html">Artists</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link hvr-backward" href="demos.html">Demos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    
+        </header>
+        <!-- Form -->
+        <section class="container-fluid demo-section">
+            <div id="demo-bg"></div>
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex flex-column align-items-center">
+                        <h3 class="demo-heading uppercase text-center p-3">Send Us Your Music!</h3>
+                        <h5 class="demo-heading text-center p-3">If we like it, we'll sign it.</h5>
+                    </div>
+
+                    <div class="center-form">
+                        <form action="confirmation.html">
+                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Artist Name"
+                                required>
+                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="email"
+                                required>
+                            <input type="url" name="link" id="link" class="form-control" placeholder="Streaming Link"
+                                required>
+                            <div class="form-row text-center">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-secondary">Send Us a Demo</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Footer -->
+        <footer class="container-fluid">
+            <div id="footer-details" class="row">
+    
+                <div class="col-6 left-side">
+                    <h5 class="uppercase general-sub">Find Us</h5>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.facebook.com/replicamusicuk/">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://twitter.com/replicamusicuk">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.instagram.com/replica_recordings/">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-6 right-side">
+                    <h5 class="uppercase general-sub">Listen</h5>
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://open.spotify.com/album/0fxLvypultLFg02EFjRLYz">
+                                <i class="fa fa-spotify" aria-hidden="true"></i>
+                                <span class="sr-only">Spotify</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://soundcloud.com/replicamusicuk">
+                                <i class="fa fa-soundcloud" aria-hidden="true"></i>
+                                <span class="sr-only">Soundcloud</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.youtube.com/channel/UCsuiW-hJl_S7D3JenEoPN_Q">
+                                <i class="fa fa-youtube" aria-hidden="true"></i>
+                                <span class="sr-only">YouTube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="copyright">
+                <p>
+                    Copyright © Replica Recordings. All Rights Reserved.
+                    Created by Thom Gwyther as a Portfolio Project as part of the full-stack web application development
+                    course at Code Institute
+                </p>
+            </div>
+        </footer>
+    </div>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
