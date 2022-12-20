@@ -3,11 +3,8 @@
 a,
 a:hover,
 a:focus {
-  
-    text-decoration: none;
+   text-decoration: none;
 }
-
-
 
 html {
     font-size: 12px;
@@ -46,9 +43,31 @@ html {
 
 /* modal */
 
+.btn-primary {
+  background-color: black !important;
+  color:  #f46703 !important;
+}
+
 .modal-content {
-  font-family: chakra petch;
-  background: none;
+  background-color: black !important;
+  color:  #f46703 !important;
+}
+
+/* Sound Selector */
+
+.soundsets {
+  border: .4rem solid black;
+  display:flex;
+  position:relative;
+  text-transform: capitalize;
+  color:  #f46703;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  text-align: center;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 .7rem black;
 }
 
 
@@ -137,7 +156,6 @@ html {
     bottom: 0;
     left: 0;
     animation: rotate 3s linear infinite;
-  
     animation-play-state: paused;
   }
   
