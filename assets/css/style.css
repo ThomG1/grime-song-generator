@@ -3,7 +3,7 @@
 a,
 a:hover,
 a:focus {
-    color: inherit;
+  
     text-decoration: none;
 }
 
@@ -18,12 +18,13 @@ html {
   body,html {
     margin: 0;
     padding: 0;
-    font-family: chakra petch;
+    font-family: chakra petch !important;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: transparent !important;
   }
 
 /* Header  */
@@ -41,6 +42,13 @@ html {
   text-align: center;
   background: rgba(0,0,0,0.4);
   text-shadow: 0 0 .7rem black;
+}
+
+/* modal */
+
+.modal-content {
+  font-family: chakra petch;
+  background: none;
 }
 
 
@@ -207,7 +215,6 @@ html {
   }
   
   .progress {
-    background-color: #fe8daa;
     border-radius: 5px;
     height: 100%;
     width: 0%;
