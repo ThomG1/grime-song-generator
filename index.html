@@ -19,7 +19,8 @@
   </header>
 
   <!-- Button trigger modal -->
-  <button id="instructions-button" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  <button id="instructions-button" type="button" class="btn btn-primary" data-bs-toggle="modal"
+    data-bs-target="#exampleModal">
     Instructions
   </button>
 
@@ -73,10 +74,11 @@
 
 
   <!-- Sound Selector -->
+  <div class="choice"></div>
 
   <div class="soundsets">
     <label for="soundsets">Sound Sets</label>
-    <select name="soundsets" id="soundsets">
+    <select name="soundsets">
       <option value="g-sounds">Sound Set 1</option>
       <option value="b-sounds">Sound Set 2</option>
       <option value="s-sounds">Sound Set 3</option>
@@ -84,7 +86,8 @@
   </div>
 
   <!-- Playground -->
-  <div class="choice"></div>
+
+  <!--
   <div class="keys">
     <div data-key="1" class="key">
       <kbd>1</kbd>
@@ -102,7 +105,30 @@
       <kbd>4</kbd>
       <span class="sample">Synth Sound 4</span>
     </div>
+ 
 
+  </div> -->
+
+  <div class="container keys">
+    <div class="row">
+      <div class="col key" data-key="1">
+        <kbd>1</kbd>
+        <span class="sample">Synth Sound 1</span>
+      </div>
+      <div class="col key" data-key="2" >
+        <kbd>2</kbd>
+        <span class="sample">Synth Sound 2 </span>
+      </div>
+      <div class="col key" data-key="3" >
+        <kbd>3</kbd>
+        <span class="sample">Synth Sound 3 </span>
+      </div>
+      <div class="col key" data-key="4" >
+        <kbd>4</kbd>
+        <span class="sample">Synth Sound 4 </span>
+      </div>
+    </div>
+    
   </div>
 
 
