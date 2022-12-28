@@ -15,45 +15,75 @@
 
 <body id="across-page">
 
-        <!-- Header -->
+    <!-- Header -->
+    <header class="main-heading">
+        <h2>grime song generator</h2>
 
-        <!-- Form -->
-        <section class="container-fluid">
-            <div id="demo-bg"></div>
-            <div class="row">
-                <div class="col">
-                    <div class="d-flex flex-column align-items-center">
-                        <h3 class="demo-heading uppercase text-center p-3">Want your tracks featured in the loop player? </h3>
-                        <h5 class="demo-heading text-center p-3">Send Us a link below.</h5>
-                    </div>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-black">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menu">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-                    <div class="center-form">
-                        <form action="confirmation.html">
-                            <input type="text" name="name" id="fullname" class="form-control" placeholder="Name"
-                                required>
-                            <input type="email" name="email" id="emailaddress" class="form-control" placeholder="email"
-                                required>
-                            <input type="url" name="link" id="link" class="form-control" placeholder="Streaming Link"
-                                required>
-                            <div class="form-row text-center">
-                                <div class="col">
-                                    <button type="submit" class="btn btn-secondary">Send Us Your Tracks </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+    <!-- Form -->
+    <section class="container-fluid">
+        <div id="demo-bg"></div>
+        <div class="row">
+            <div class="col">
+                <div class="d-flex flex-column align-items-center">
+                    <h3 class="demo-heading uppercase text-center p-3">Want your tracks featured in the loop player?
+                    </h3>
+                    <h5 class="demo-heading text-center p-3">Send Us a link below.</h5>
                 </div>
 
+                <div class="center-form">
+                    <form action="confirmation.html">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="email"
+                            required>
+                        <input type="text" name="message" id="mainmessage" class="form-control" placeholder="Message"
+                            required>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Us Your Tracks </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
 
-        </section>
-        <!-- Footer -->
-   
- 
+        </div>
+
+    </section>
+    <!-- Footer -->
+
+<script src="contact.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("zoOhNT7C0P4snTHA4");
+        })();
     </script>
 </body>
