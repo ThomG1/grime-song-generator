@@ -5,6 +5,21 @@ function sendMail () {
         message:document.getElementById("mainmessage").value,
 
     };
-}
 
-const serviceID = "service_zcjlh8m"
+    const serviceID = "service_zcjlh8m";
+const templateID = "contact_form"; 
+
+emailjs.send(serviceID,templateID,params)
+.then(
+    res => {
+        document.getElementById("fullname").value = "";
+        document.getElementById("emailaddress").value = "";
+        document.getElementById("mainmessage").value = "";
+        console.log(res);
+        alert("Your message has been sent!");
+
+    }
+)
+
+.catch((err)=> console.log(err));
+}
