@@ -6,7 +6,6 @@ const selectElement = document.querySelector('.soundsets');
 
 selectElement.addEventListener('change', (event) => {
   const result = document.querySelector('.choice');
-  result.textContent = `${event.target.value}`;
   currentSounds = event.target.value;
 
   const keyGroups = {
