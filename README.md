@@ -14,35 +14,36 @@ The application consists of four sections: the instructions section, the sound s
 The overall feel of the site design is gritty, dark and minimal as this matches the style and aethetic of the 'Grime' genre.  
 
 - __Font__
-The font used throughout the site is Chakra Petch to give the site an industrial feel, achieved by the lack of curves in the letters. This also works in contrast to the heavily curved, abstract shapes used in the background.
-
+The font used throughout the site is Chakra Petch to give the site an urban feel, 
 - __Icons__
 The icons used from font awesome were chosen for their simplicity to ensure all users can identify them.
 
 - __Colours__
 
-The colours used are intentionally minimal. The primary colours used in the background are black and grey. To contrast used, the font throughout is white. 
-The other colours featured in the website are from the release artworks, or artist profiles. There is no set colour scheme for these as they are dependant on the artist, however this in itself is a stylistic choice that highlights the individuality and uniqueness of the artists against the minimal colour scheme of the main website. 
+The primary colours used in the background are black backgrounds and a contrasting bright orange. The image used as a central background does not have any distinctive colours itself, but fades from a light white centre to darker sides. 
+
 
 ![Site Colours](documentation/screenshots/site-colours.png)
 
 - __First Time Users__
 
-1.As a first time user, I want to easily understand the main purpose of the site and the record labels role as a promoter of existing artists, and a platform for emerging artists.
+1.As a first time user, I want to easily understand the main purpose of the site as a basic music making, and listening tool. 
 
-2.As a first time user, I want to be able to get good visual representation of the musical content released without having heard the music, from the aesthetic of the website, artist profiles and release artworks.
+2.As a first time user, I want to be able to get an understanding of how to use the site and all of it's features. 
 
 3.As a first time user, I want clear and distinguishable sections that are easy to find and move between. 
 
-4.As a first time user, I want to be able to leave the website to find out more via social media or access the music directly.
+4.As a first time user, I want to be able to enjoy the clean but eye catching design of the site, even before I have started using it. 
+
+5. As a first time user, I want to be able to quickly and easily start making music. 
 
 - __Returning Users__
 
-1. As a returning user, I want to easily find the links I didn't use the first time, for instance if I checked out the social media, I now want to find the music.
+1. As a returning user, I want to change the sound I used to create with the first time to create a different style of music. 
 
-2. As a returning user, I want to be easily able to find what updated have occurred since my last visit. 
+2. As a returning user, I want to be able to choose from a variety of different backing music to play melodies over. 
 
-3. As a returning user, I want to know how to submit music, and see how I'll be represented. 
+3. As a returning user, I want to know how to contact the page, and am able to send a link to music that can potentially be included in the sites audio player. 
 
 ## Wireframes
 
@@ -58,33 +59,30 @@ As part of the planning, I completed the below Wireframes using Balsamiq:
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Home page, Artist page and Demo page and is identical in each page to allow for easy navigation.
+  - Featured on all pages, the full responsive navigation bar includes links to the Home page and contact page and  is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+
 
 ![Nav Bar](documentation/screenshots/navbar.png)
 
-- __The Logo__
- 
-  - Whilst part of the Navbar, it's important to highlight the logo on the left hand side. The image contains the signature Replica Recordings image, serving as both the quickest possible way for a user to identify the brand, and an eye-catching anchor at the top of the page that will return the user to the home page from other parts of the site. 
 
-  ![Logo](assets/images/replicalogo.jpg)
   
 
 - __Title Section__
 
-  - The landing includes a banner with text overlay to allow the user to see the actual name and description of the brand for the first time. 
-  - This section involves a  transulcent banner over a deliberately abstract yet eye catching image for the text and description while also helping to create an initial atmosphere for the site.
+  - The title section sits on the opposite side to the Navbar, stating the title of the page in a clear and noticable way. 
+ 
 
 ![Home Page](documentation/screenshots/homepage.png)
 
-- __About Section__
+- __Instructions Section__
 
-  - The 'About' section will allow the user to quickly immerse themselves in the ethos of the label and encourage users to explore the other sections of the site.
-  - This user will quickly understand the value the label places on it's artists and the music it releases and be encouraged to do the same. This should result in the user to begin exploring the artists, or be inspired to get involved in the label themselves. 
+  - The 'Instructions' section will allow the user to quickly understand how to get the most from the site, depending on their device. It will outline the keys or actions needed to trigger sounds, or how selecting a different soundset will give them access to multiple options. 
+  - This section will remain stylistically in tune with the rest of the site, including clear orange writing. The instructions section itself is easy to find, and the user will be able to return to the site, either by clicking close, or clicking off the instructions window.  
 
   ![About](documentation/screenshots/about-screenshot.png)
 
-- __Latest Section__
+- __Sound Selector Section__
 
   - This section will allow the user to see exactly how the label operates on a day to day basis, it gives concise summaries of the latest releases, events and news.  
   - The busy schedule of releases, events and news will be regularly updated, this will encourage the user to regularly return to the site and serves to demonstrate the impressive and involved work rate of the label and artists. 
@@ -116,6 +114,20 @@ As part of the planning, I completed the below Wireframes using Balsamiq:
   - This page will allow the user to become familiar with how the process of signing music works through Replica Recordings. The aim of this page is to demonstrate to prospective artists the clear, and simple process of how to submit music, and gives insight to general users and fans by including a summary of the approach in the 'If we like it, we'll sign it' section.
 
 ![Demo Page](documentation/screenshots/demopage.png)
+
+### Future Features
+
+Do you have additional ideas that you'd like to include on your project in the future?
+Fantastic! List them here!
+It's always great to have plans for future improvements!
+Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
+
+- Cool new feature #1
+    - Any additional notes about this feature.
+- Cool new feature #2
+    - Any additional notes about this feature.
+- Cool new feature #3
+    - Any additional notes about this feature.
 
 ## Technologies Used
 
