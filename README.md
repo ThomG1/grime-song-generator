@@ -20,7 +20,7 @@ The icons used from font awesome were chosen for their simplicity to ensure all 
 
 - __Colours__
 
-The primary colours used in the background are black backgrounds and a contrasting bright orange. The image used as a central background does not have any distinctive colours itself, but fades from a light white centre to darker sides. 
+The primary colours used in the background are black backgrounds and a contrasting bright orange. The image used as a central background does not have any distinctive colours itself, but fades from a light white centre to darker sides, covered in graffiti.  
 
 
 ![Site Colours](documentation/screenshots/site-colours.png)
@@ -84,21 +84,30 @@ As part of the planning, I completed the below Wireframes using Balsamiq:
 
 - __Sound Selector Section__
 
-  - This section will allow the user to see exactly how the label operates on a day to day basis, it gives concise summaries of the latest releases, events and news.  
-  - The busy schedule of releases, events and news will be regularly updated, this will encourage the user to regularly return to the site and serves to demonstrate the impressive and involved work rate of the label and artists. 
+  - This section will allow the user to choose from a selection of sounds to use. At present, there are three distinct sound sets to choose from, all stylistically different from each other, to provide the user with a range of tones to begin creating music with. 
+  - This section provides the user with a slick dropdown menu, making it simple and effective for the user to choose.  
 
     ![Latest](documentation/screenshots/latest-screenshot.png)
   
-  - __Releases Section__
+  - __Playground Section__
 
-  - This section will provider the user with a sample of some of the artwork from the latest Replica Recordings releases. The aim is to give a visual representation of the primary content the label puts out. 
+  - This section will allow the user to press certain keys, or if on a phone or tablet to click the pads to trigger the sounds. This was built so that whatever device was being used, it would retain a 'playable' approach for the user, keeping the site intuitive and fresh for users, by allowing them to improvise and to apply different speeds, rhythms to thier melodies. 
+  - This section contains 4 pads the user can play per sound set. The pads are black, and flash orange when played, providing an immersive experience when the audio and visual effects work together.  
+
 
      ![Releases](documentation/screenshots/releases-screenshot.png)
 
-- __The Footer__ 
+- __The Loop Player__ 
 
-  - The footer section is split in two halves. The left half includes links to the social media sites for Replica Recordins under a 'Find Us' heading. The right half includes links to streaming platforms so they user can engage directly with the content being released by the label and it's artists. All links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it directs them straight to the musical content, and social media links to follow and engage with on an ongoing basis. 
+  - The loop player section allows the user to play audio tracks, to advance and embelish the melodies they make in the playground. This allows the user to hear music in a wider context. 
+  - The loop player is designed to imitate a vinyl player, including a spinning image in the centre. 
+  - The loop player includes a play / pause button, and a button to skip forwards or backwards if needed. This provides the user with a large amount of choice and control over the site. 
+  - The loop player feautures 5 original tracks with individual artworks. 
+
+  - __The Credits Section__ 
+  
+  - The credits section provides the user with information on the creators of the loops used in the loop player, alongside a closer look at the individual images used. 
+  - The aim of this section is to firstly provide credit to the creators of the content used, and secondly to encourage potential creators to submit thier own ideas for potential use in the loop player, via the contact page. 
 
 ![Footer](documentation/screenshots/footer.png)
 
