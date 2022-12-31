@@ -111,44 +111,38 @@ As part of the planning, I completed the below Wireframes using Balsamiq:
 
 ![Footer](documentation/screenshots/footer.png)
 
-- __Artist Page__
 
-  - This page will give the user pictures of the artists or their releases along with a text blurb explaining key information about each one. 
-  - This section is valuable to the user as they will be able to view the artists themselves, as will as specific information about them, and as a prospective artist be able to preview how they would be depicted on the site should they become part of the label.  
 
-![Artists](documentation/screenshots/artists.png)
+- __Contact Page__
 
-- __Demo Page__
-
-  - This page will allow the user to become familiar with how the process of signing music works through Replica Recordings. The aim of this page is to demonstrate to prospective artists the clear, and simple process of how to submit music, and gives insight to general users and fans by including a summary of the approach in the 'If we like it, we'll sign it' section.
+  - This page will allow the user to directly contact the page administrators. It also provides an oppurtunity for potential creators to submit music to be featured in the loop player section, and subsequently be credited in the credits section. 
+  - This page has used emailJS to provide contact requests to the page administration. 
 
 ![Demo Page](documentation/screenshots/demopage.png)
 
 ### Future Features
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
+Additional features that are currently being considered for future implementation include: 
 
-- Cool new feature #1
-    - Any additional notes about this feature.
-- Cool new feature #2
-    - Any additional notes about this feature.
-- Cool new feature #3
-    - Any additional notes about this feature.
+- Additional Pads
+    - In future, the aim is for the playground to have up to 8 pads, to allow for more variation and advanced compositions. 
+- Additional Sound Sets
+    - In future, the aim of for the sound selector to have several additional sound sets to allow for more choice. 
+- Sequencer
+    - In future, the aim would be to build a step sequencer, to allow users to arrange their compositions and lisaten back to them, without having to play in the melody themselves. Save and Export features would also be beneficial here. 
 
 ## Technologies Used
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - Used for page content
 - [CSS](https://en.wikipedia.org/wiki/CSS) - Used for design and layout
-- [Bootstrap](https://getbootstrap.com) - Used for responsiveness and carousel
+- [Javascript](https://en.wikipedia.org/wiki/JavaScript)- Used for interactive features and email API
+- [EmailJS] (https://www.emailjs.com/) - Used for email
+- [Bootstrap](https://getbootstrap.com) - Used for responsiveness
 - [Git](https://git-scm.com/) - Used for version control
 - [GitHub](https://github.com/) - Used for online storage of code
 - [Gitpod](https://www.gitpod.io)- Used for cloud-based IDE editor
 - [Balsamiq](https://balsamiq.com/) - Used for wireframes
-- [Font Awesome](https://fontawesome.com/) - Used for icons
-- [Hover.css](http://ianlunn.github.io/Hover/) - Used for hover effects
+
 
 
 ## Testing 
@@ -191,15 +185,8 @@ Consider adding any helpful links or notes to help remind you in the future, if 
    
     ![Home-phone](documentation/screenshots/home-phone.jpeg)
 
-  - Artists Page
 
-    ![Artists-desktop](documentation/screenshots/firefox-artists.png)
-
-    ![Artists-tablet](documentation/screenshots/artists-tablet.png)
-
-    ![Artists-phone](documentation/screenshots/artists-phone.jpeg)
-
-  - Demos Page
+  - Contact Page
 
     ![Demos-desktop](documentation/screenshots/firefox-demos.png)
 
@@ -215,26 +202,20 @@ Consider adding any helpful links or notes to help remind you in the future, if 
 
      ![Chrome-home](documentation/screenshots/chrome-home.png)
 
-     ![Chrome-artists](documentation/screenshots/chrome-artists.png)
-
-     ![Chrome-demos](documentation/screenshots/chrome-demos.png)
+     ![Chrome-contact](documentation/screenshots/chrome-demos.png)
 
 
   - Firefox 
 
      ![Firefox-home](documentation/screenshots/firefox-home.png)
 
-     ![Firefox-artists](documentation/screenshots/firefox-artists.png)
-
-     ![Firefox-demos](documentation/screenshots/firefox-demos.png)
+     ![Firefox-contact](documentation/screenshots/firefox-demos.png)
 
   - Safari
 
      ![Safari-Home](documentation/screenshots/safari-home.png)
 
-     ![Safari-artists](documentation/screenshots/safari-artists.png)
-
-     ![Safari-demos](documentation/screenshots/safari-demos.png)
+     ![Safari-Contact](documentation/screenshots/safari-demos.png)
 
   ### Bugs
 
