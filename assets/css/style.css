@@ -41,7 +41,6 @@ html {
 }
 
 .navbar {
-  border: .4rem solid black;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -257,4 +256,23 @@ kbd {
 
 .center-form {
   height:100vh;
+}
+
+.contact-heading {
+  border: .4rem solid black;
+  display: flex;
+  position: relative;
+  text-transform: capitalize;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  text-align: center;
+  background-color: black;
+  color: #f46703;
+}
+
+.btn-secondary {
+  background-color: black;
+  color: #f46703;
 }
