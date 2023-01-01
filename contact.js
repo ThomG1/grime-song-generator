@@ -16,7 +16,7 @@ emailjs.send(serviceID,templateID,params)
         document.getElementById("emailaddress").value = "";
         document.getElementById("mainmessage").value = "";
         console.log(res);
-        alert("Your message has been sent!");
+      
 
     }
 )
