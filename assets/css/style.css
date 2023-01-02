@@ -26,32 +26,39 @@ html {
 
 /* Header  */
 
-.main-heading {
-  border: .4rem solid black;
-  display: flex;
-  position: relative;
-  text-transform: capitalize;
-  border-radius: .5rem;
-  margin: 1rem;
-  font-size: 1.5rem;
-  padding: 1rem .5rem;
-  text-align: center;
-  background-color: black;
-  color: #f46703;
+header {
+
+  display:flex;
+  background-color: #000;
 }
 
-.navbar {
+.main-logo {
+  text-decoration: none;   
+}
+
+#name {
+  
   display: flex;
   flex-direction: column;
-  position: relative;
-  text-transform: capitalize;
-  border-radius: .5rem;
-  margin: 1rem;
-  font-size: 1.5rem;
-  padding: 1rem .5rem;
-  background-color: black;
+  height:120px;
+  width:120px;
+  margin-left: 30px;
   color: #f46703;
+
 }
+
+#top-menu {
+  font-size: 110%;
+  list-style-type: none;
+  letter-spacing: 4px;
+  color: #f46703;
+  align-self: center;
+}
+
+.container-fluid {
+  z-index: 1;
+}
+
 
 /* modal */
 
