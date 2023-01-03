@@ -83,12 +83,11 @@ const songs = ['d-loop-1', 'd-loop-2', 'd-loop-3', 'd-loop-4', 'd-loop-5'];
 
 let songIndex = 2;
 
-// Initially load song details into DOM
 loadSong(songs[songIndex]);
 
-// Update song details
+// load songs
 function loadSong(song) {
-  title.innerText = song;
+
   audio.src = `assets/sounds/${song}.mp3`;
   cover.src = `assets/images/${song}.jpg`;
 }
@@ -102,7 +101,7 @@ function playSong() {
   audio.play();
 }
 
-// Pause song
+// Pause track
 function pauseSong() {
   musicContainer.classList.remove('play');
   playBtn.querySelector('i.fas').classList.add('fa-play');
@@ -111,7 +110,7 @@ function pauseSong() {
   audio.pause();
 }
 
-// Previous song
+// Previous track
 function prevSong() {
   songIndex--;
 
@@ -124,7 +123,7 @@ function prevSong() {
   playSong();
 }
 
-// Next song
+// Next tack
 function nextSong() {
   songIndex++;
 
