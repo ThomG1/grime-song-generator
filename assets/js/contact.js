@@ -1,3 +1,5 @@
+// Send email
+
 function sendMail () {
     var params = {
         name:document.getElementById("fullname").value,
