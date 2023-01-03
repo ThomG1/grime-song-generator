@@ -108,7 +108,7 @@ header {
   flex-direction: centre;
   flex: 1;
   min-height: 50vh;
-  align-items: center;
+  align-items: unset;
   justify-content: center;
 }
 
@@ -119,7 +119,6 @@ header {
   border-radius: .9rem;
   margin: 1rem;
   font-size: 1.5rem;
-  padding: 1rem .5rem;
   transition: all .07s ease;
   width: 10rem;
   text-align: center;
