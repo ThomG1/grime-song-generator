@@ -108,7 +108,11 @@ header {
   flex-direction: centre;
   flex: 1;
   min-height: 50vh;
-  align-items: unset;
+  align-items: center;
+  justify-content: center;
+}
+
+.pads {
   justify-content: center;
 }
 
@@ -272,6 +276,9 @@ kbd {
   width: 0%;
   transition: width 0.1s linear;
 }
+
+/* Credits */
+
 
 /* Contact Form  */
 

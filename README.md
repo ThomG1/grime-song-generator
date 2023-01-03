@@ -259,11 +259,11 @@ Additional features that are currently being considered for future implementatio
 ## Deployment
 
 The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository](https://github.com/ThomG1/Replica-Recordings), navigate to the Settings tab 
+  - In the [GitHub repository](https://github.com/ThomG1/grime-song-generator), navigate to the Settings tab 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://thomg1.github.io/Replica-Recordings)
+The live link can be found [here](https://github.com/ThomG1/grime-song-generator)
 
 ### Local Deployment
 
@@ -278,6 +278,8 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ## Credits 
 
+
+
 ### Content 
 
 - [Bootstrap](https://getbootstrap.com) version 5.2 has been used throughout for responsiveness.
@@ -287,4 +289,5 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ### Media
 
-- All photos and images used throughout the Replica Recordings website are owned by https://github.com/ThomG1. 
+- All images used throughout the website are owned by https://github.com/ThomG1. 
+- All sounds and music used throughout the website are owned by https://github.com/ThomG1. (Names used during the credit section are used for the purpose of making the site appear real )
