@@ -55,12 +55,16 @@
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
                         <input type="email" name="email" id="emailaddress" class="form-control" placeholder="email"
                             required>
-                        <input type="text" name="message" id="mainmessage" class="form-control" placeholder="Message"
+                        <input type="text" name="message" id="mainmessage" class="form-control" placeholder="Message (Include a link to your music)"
                             required>
                         <div class="form-row text-center">
                             <div class="col">
-                                <button type="submit" class="btn btn-secondary" onclick="sendMail()">Send Us Your Tracks </button>
+                                <button type="submit" class="btn btn-secondary" onclick="message()">Send Us Your Tracks </button>
                             </div>
+                        </div>
+                        <div class="message">
+                            <div class="success" id="success">Your Message Has Successfully Sent!</div>
+                            <div class="danger" id="danger">Feilds Can't be Empty!</div>
                         </div>
                     </form>
                 </div>

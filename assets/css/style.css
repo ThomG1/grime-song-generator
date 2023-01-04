@@ -287,6 +287,7 @@ kbd {
 
 .center-form {
   height:100vh;
+  margin-top: 30px;
 }
 
 .contact-heading {
@@ -306,4 +307,42 @@ kbd {
 .btn-secondary {
   background-color: black;
   color: #f46703;
+}
+
+/* Form Result */
+
+.message{
+  width: 100%;
+  position: relative;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+.message .success{
+  font-size: 20px;
+  color: green;
+  position: absolute;
+  animation: buttons .3s linear;
+  display: none;
+  background-color: #000;
+}
+.message .danger{
+  font-size: 20px;
+  color: red;
+  position: absolute;
+  transition: .3s;
+  animation: buttons .3s linear;
+  display: none;
+  background-color: #000;
+}
+@keyframes buttons{
+  0%{
+      transform: scale(0.1);
+  }
+  50%{
+      transform: scale(0.5);
+  }
+  100%{
+      transform: scale(1);
+  }
 }
