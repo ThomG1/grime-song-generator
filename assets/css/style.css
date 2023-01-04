@@ -74,6 +74,8 @@ header {
   color: #f46703;
   align-items: center;
   width:130px;
+
+  
 }
 
 #exampleModal {
@@ -81,6 +83,7 @@ header {
   color: #f46703;
   align-items: center;
 }
+
 
 /* Sound Selector */
 
