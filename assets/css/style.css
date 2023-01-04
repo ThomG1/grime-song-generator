@@ -282,6 +282,11 @@ kbd {
 
 /* Credits */
 
+.credit-img {
+  height: 25px;
+  width: 25px;
+}
+
 
 /* Contact Form  */
 
