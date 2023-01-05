@@ -1,31 +1,32 @@
 // Send email
 
-function sendMail () {
+const submit = document.getElementById("submit");
+
+submit.addEventListener("click", sendMail);
+
+function sendMail() {
     var params = {
-        name:document.getElementById("fullname").value,
-        email:document.getElementById("emailaddress").value,
-        message:document.getElementById("mainmessage").value,
+        name: document.getElementById("fullname").value,
+        email: document.getElementById("emailaddress").value,
+        message: document.getElementById("mainmessage").value,
 
     };
 
     const serviceID = "service_zcjlh8m";
-const templateID = "contact_form"; 
+    const templateID = "contact_form";
 
-emailjs.send(serviceID,templateID,params)
-.then(
-    res => {
-        document.getElementById("fullname").value = "";
-        document.getElementById("emailaddress").value = "";
-        document.getElementById("mainmessage").value = "";
-        console.log(res);
-      
+    emailjs.send(serviceID, templateID, params)
+        .then(
+            res => {
+                document.getElementById("fullname").value = "";
+                document.getElementById("emailaddress").value = "";
+                document.getElementById("mainmessage").value = "";
+                console.log(res);
 
-    }
-)
 
-.catch((err)=> console.log(err));
-return false;
+            }
+        )
+
+        .catch((err) => console.log(err));
+    return false;
 }
-
-
-
