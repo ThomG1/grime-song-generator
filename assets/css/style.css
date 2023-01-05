@@ -23,6 +23,18 @@ html {
   align-items: center;
 }
 
+#across-page-conf {
+  margin: 0;
+  padding: 0;
+  font-family: chakra petch;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  align-items: center;
+  background: url('../images/subway.jpg') no-repeat center center;
+  background-size: 100vh;
+}
+
 /* Header  */
 
 header {
@@ -50,7 +62,7 @@ header {
 
 }
 
-#top-menu {
+.navbar {
   font-size: 110%;
   list-style-type: none;
   letter-spacing: 4px;
@@ -314,40 +326,32 @@ kbd {
   color: #f46703;
 }
 
-/* Form Result */
+/* Confirmation */
 
-.message{
-  width: 100%;
-  position: relative;
-  margin-bottom: 60px;
+.thanks {
+  border: .4rem solid black;
   display: flex;
-  justify-content: center;
+  position: relative;
+  text-transform: capitalize;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  text-align: center;
+  background-color: black;
+  color: #f46703;
 }
-.message .success{
-  font-size: 20px;
-  color: green;
-  position: absolute;
-  animation: buttons .3s linear;
-  display: none;
-  background-color: #000;
-}
-.message .danger{
-  font-size: 20px;
-  color: red;
-  position: absolute;
-  transition: .3s;
-  animation: buttons .3s linear;
-  display: none;
-  background-color: #000;
-}
-@keyframes buttons{
-  0%{
-      transform: scale(0.1);
-  }
-  50%{
-      transform: scale(0.5);
-  }
-  100%{
-      transform: scale(1);
-  }
+
+.redirect {
+  border: .4rem solid black;
+  display: flex;
+  position: relative;
+  text-transform: capitalize;
+  border-radius: .5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  text-align: center;
+  background-color: black;
+  color: #f46703;
 }

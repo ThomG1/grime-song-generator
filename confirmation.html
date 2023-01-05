@@ -10,34 +10,68 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css">
-
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Grime Song Generator</title>
 </head>
 
-<body class="across-page">
+<body id="across-page">
+
     <!-- Header -->
+    <header class="main-heading">
+        <h2>grime song generator</h2>
 
-
-    <main>
-        <!-- title  -->
-        <section>
-
-            <div >
-                <h2>Thank You</h2>
-                <h4>You will be re-directed to the Home page in 10 seconds</h4>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-black">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="menu">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </section>
+        </nav>
+    </header>
 
-       
+    <!-- Form -->
+    <section class="container-fluid">
+        <div id="contact-bg"></div>
+        <div class="row">
+            <div class="col">
+                <div class="d-flex flex-column align-items-center">
+                    <h3 class="contact-heading uppercase text-center p-3">Thank You
+                    </h3>
+                    <h5 class="contact-heading text-center p-3">You will be directed to the home page in 10 seconds</h5>
+                </div>
 
-    </main>
+
+            </div>
+
+        </div>
+
+    </section>
     <!-- Footer -->
 
+<script src="assets/js/contact.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("zoOhNT7C0P4snTHA4");
+        })();
     </script>
 </body>
