@@ -9,6 +9,7 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         type="text/css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Grime Song Generator</title>
 </head>
@@ -16,10 +17,11 @@
 <body id="across-page">
 
     <!-- Header -->
-    <header class="main-heading">
-        <h2>grime song generator</h2>
-
-        <nav class="navbar navbar-expand-sm navbar-dark bg-black">
+    <header>
+        <h2 class="main-logo" href="index.html" id="name">
+           Grime Song Generator
+        </h2>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-black" id="top-menu">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,6 +32,7 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
+                      
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
                         </li>
@@ -37,6 +40,7 @@
                 </div>
             </div>
         </nav>
+    
     </header>
 
     <!-- Form -->
@@ -49,7 +53,11 @@
                     </h3>
                     <h5 class="contact-heading text-center p-3">Get in touch below.</h5>
                 </div>
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="col-12 col-md-6 mx-auto">
                 <div class="center-form">
                     <form action="confirmation.html">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required>
@@ -58,8 +66,8 @@
                         <input type="text" name="message" id="mainmessage" class="form-control" placeholder="Message (Include a link to your music)"
                             required>
                         <div class="form-row text-center">
-                            <div class="col">
-                                <button type="submit" class="btn btn-secondary" onclick="sendMail()">Send Us Your Tracks </button>
+                            <div class="col mt-3">
+                                <button type="submit" class="btn btn-secondary" id="submit">Send Us Your Tracks </button>
                             </div>
                         </div>
                         
