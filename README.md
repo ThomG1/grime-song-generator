@@ -120,6 +120,13 @@ As part of the planning, I completed the below Wireframes using Balsamiq:
 
 ![Demo Page](documentation/screenshots/demopage.png)
 
+- __Confirmation Page__
+
+  - This page will confirm to the user that their email has been sent. This will also notify the user that they will be redirected to the home page in ten seconds
+
+
+![Demo Page](documentation/screenshots/demopage.png)
+
 ### Future Features
 
 Additional features that are currently being considered for future implementation include: 
@@ -136,7 +143,7 @@ Additional features that are currently being considered for future implementatio
 - [HTML5](https://en.wikipedia.org/wiki/HTML5) - Used for page content
 - [CSS](https://en.wikipedia.org/wiki/CSS) - Used for design and layout
 - [Javascript](https://en.wikipedia.org/wiki/JavaScript)- Used for interactive features and email API
-- [EmailJS] (https://www.emailjs.com/) - Used for email
+- [EmailJS](https://www.emailjs.com/) - Used for email feature
 - [Bootstrap](https://getbootstrap.com) - Used for responsiveness
 - [Git](https://git-scm.com/) - Used for version control
 - [GitHub](https://github.com/) - Used for online storage of code
@@ -225,31 +232,36 @@ Additional features that are currently being considered for future implementatio
 
   - __First Time Users__
 
-1.As a first time user, I am able to easily understand the main purpose of the site and the record labels role as a promoter of existing artists, and a platform for emerging artists.
+1.As a first time user, I easily understand the main purpose of the site as a basic music making, and listening tool.
+
 
  ![About](documentation/screenshots/about-screenshot.png)
 
-2.As a first time user, I am able to get good visual representation of the musical content released without having heard the music, from the aesthetic of the website, artist profiles and release artworks.
+2.As a first time user, I quickly get an understanding of how to use the site and all of it's features. This is due to the sites clear layout, and features such as the instructions button.
 
  ![Releases](documentation/screenshots/releases-screenshot.png)
 
-3.As a first time user, I am able to get a clear and distinguishable sections that are easy to find and move between. 
+3.As a first time user, I have clear and distinguishable sections that are easy to find and move between.
 
 ![Nav Bar](documentation/screenshots/navbar.png)
 
-4.As a first time user, I am able to leave the website to find out more via social media or access the music directly.
+4.As a first time user, I am able able to enjoy the design and look of the site, even before I have started using it.
+
+![Footer](documentation/screenshots/footer.png)
+
+5. As a first time user, I am able to quickly and easily start making music.
 
 ![Footer](documentation/screenshots/footer.png)
 
 - __Returning Users__
 
-1. As a returning user, I can easily find the links I didn't use the first time, for instance if I checked out the social media, I now want to find the music.
+1. As a returning user, I am able to change the sound I used to create with the first time to create a different style of music.
 
-2. As a returning user, I can easily find what updated have occurred since my last visit. 
+2. As a returning user, I am able to choose from a variety of different backing music to play melodies over.
 
  ![Latest](documentation/screenshots/latest-screenshot.png)
 
-3. As a returning user, I know how to submit music, and see how I'll be represented. 
+3. As a returning user, I am able to to contact the page, and am able to send a link to music that can potentially be included in the sites audio player and credits section.  
 
 ![Demo Page](documentation/screenshots/demopage.png)
 
@@ -269,11 +281,11 @@ The live link can be found [here](https://github.com/ThomG1/grime-song-generator
 
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/ThomG1/Replica-Recordings.git`
+- `git clone https://github.com/ThomG1/grime-song-generator.git`
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ThomG1/Replica-Recordings)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ThomG1/grime-song-generator)
 
 
 ## Credits 
@@ -281,10 +293,10 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 
 ### Content 
-
+- The 'playground' section with playable pads uses partial code from and was inspired by [Wes Bos](https://www.youtube.com/watch?v=VuN8qwZoego&t=166s)
 - [Bootstrap](https://getbootstrap.com) version 5.2 has been used throughout for responsiveness.
 - Partial sections of the code were taken from Code Institute's [Love Running](https://codeinstitute.net/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=62188641240&hsa_ad=581730217381&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=EAIaIQobChMIzrnC7PL5-gIVjYFQBh3IeAm_EAAYASAAEgIoHvD_BwE) and Resume Projects.
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the audio player were taken from [Font Awesome](https://fontawesome.com/)
 
 
 ### Media

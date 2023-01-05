@@ -355,3 +355,7 @@ kbd {
   background-color: black;
   color: #f46703;
 }
+
+.confirm {
+  height:100vh;
+}
