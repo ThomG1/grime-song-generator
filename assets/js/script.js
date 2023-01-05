@@ -2,24 +2,17 @@
 
 let currentSounds = 'g-sounds';
 
-const selectElement = document.querySelector('.soundsets');
+const selectElement = document.getElementById('soundsets');
 
-selectElement.addEventListener('change', (event) => {
-  const result = document.querySelector('.choice');
-  currentSounds = event.target.value;
 
-  const keyGroups = {
-    'g-sounds': [1, 2, 3, 4,],
-    'b-sounds': [5, 6, 7, 8,],
-    's-sounds':[9, 0,'-','='],
-  
-}
 
-for (let i=0; i < keyGroups[currentSounds].length; i++) {
-  keys[i].setAttribute("data-key", keyGroups[currentSounds][i]);
-}
-
+selectElement.addEventListener("change", function() {
+  let soundGroup = this.value;
+  keys.forEach(key => {
+    key.dataset.soundset = soundGroup;
+  });
 });
+
 
 
 // Playground
@@ -45,16 +38,22 @@ function playSound(e) {
   } else if (e.classList.contains('key')) {
     keycode = e.dataset.key;
   }
- 
-  const audio = document.querySelector(`audio[data-key="${keycode}"]`);
-  const key = document.querySelector(`div[data-key="${keycode}"]`);
-  if (!audio) return;
 
-  key.classList.add('playing');
-  audio.currentTime = 0;
-  audio.play();
-
-  console.log('activated')
+  const availableKeys = ["1", "2", "3", "4"];
+  if (availableKeys.includes(keycode)) {
+    const key = document.querySelector(`div[data-key="${keycode}"]`);
+    const keySoundset = key.dataset.soundset;
+  
+  
+    const audio = document.querySelector(`audio[data-key="${keySoundset}${keycode}"]`);
+    if (!audio) return;
+  
+    key.classList.add('playing');
+    audio.currentTime = 0;
+    audio.play();
+  
+    console.log('activated')
+  }
 }
 
 
@@ -152,9 +151,3 @@ playBtn.addEventListener('click', () => {
 // Change loop
 prevBtn.addEventListener('click', prevSong);
 nextBtn.addEventListener('click', nextSong);
-
-
-
-
-
-
