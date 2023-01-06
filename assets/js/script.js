@@ -4,8 +4,6 @@ let currentSounds = 'g-sounds';
 
 const selectElement = document.getElementById('soundsets');
 
-
-
 selectElement.addEventListener("change", function() {
   let soundGroup = this.value;
   keys.forEach(key => {
@@ -13,10 +11,7 @@ selectElement.addEventListener("change", function() {
   });
 });
 
-
-
 // Playground
-
 
 function removeTransition(e) {
   if (e.propertyName !== 'transform') return;
@@ -44,7 +39,6 @@ function playSound(e) {
     const key = document.querySelector(`div[data-key="${keycode}"]`);
     const keySoundset = key.dataset.soundset;
   
-  
     const audio = document.querySelector(`audio[data-key="${keySoundset}${keycode}"]`);
     if (!audio) return;
   
@@ -55,7 +49,6 @@ function playSound(e) {
     console.log('activated')
   }
 }
-
 
 const keys = Array.from(document.querySelectorAll('.key'));
 keys.forEach((key) => {
@@ -76,9 +69,7 @@ const cover = document.getElementById('cover');
 const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
-
 const songs = ['d-loop-1', 'd-loop-2', 'd-loop-3', 'd-loop-4', 'd-loop-5'];
-
 
 let songIndex = 2;
 
@@ -134,8 +125,6 @@ function nextSong() {
 
   playSong();
 }
-
-
 
 // Event listeners
 playBtn.addEventListener('click', () => {

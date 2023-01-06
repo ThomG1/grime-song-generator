@@ -11,7 +11,7 @@ function sendMail() {
         message: document.getElementById("mainmessage").value,
 
     };
-
+    
     const serviceID = "service_zcjlh8m";
     const templateID = "contact_form";
 
@@ -22,11 +22,8 @@ function sendMail() {
                 document.getElementById("emailaddress").value = "";
                 document.getElementById("mainmessage").value = "";
                 console.log(res);
-
-
             }
         )
-
         .catch((err) => console.log(err));
     return false;
 }

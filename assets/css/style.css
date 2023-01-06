@@ -74,7 +74,6 @@ header {
   z-index: 1;
 }
 
-
 /* modal */
 
 #instructions-button {
@@ -84,12 +83,10 @@ header {
   width:130px;
 }
 
-
 .modal-content {
   background-color: black;
   color:#f46703;
 }
-
 
 /* Sound Selector */
 
@@ -103,7 +100,6 @@ header {
   padding: 1rem .5rem;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.9);
-
 }
 
 /* Playground  */
@@ -131,7 +127,6 @@ kbd {
   font-family: chakra petch;
 }
 
-
 /* Drum loops  */
 
 .music-container {
@@ -153,7 +148,6 @@ kbd {
   left: 33%;
   top: 100%;
 }
-
 
 img#cover {
   object-fit: cover;
@@ -247,7 +241,6 @@ img#cover {
   height: 45px;
   width: 45px;
 }
-
 
 /* Contact Form  */
 
