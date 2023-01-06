@@ -120,12 +120,13 @@ header {
 }
 
 .key {
-  background-color: black;
+  /*background-color: black;*/
+
   text-shadow: 0 0 .7rem black;
   border-radius: .9rem;
   font-size: 1.5rem;
   transition: all .07s ease;
-  width: 10rem;
+  /*width: 10rem;*/
   text-align: center;
   color: #f46703;
 
@@ -320,3 +321,7 @@ img#cover {
   background-color: black;
   color: #f46703;
 }
+
+/*Media Queries */
+
+
