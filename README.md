@@ -20,10 +20,10 @@ The icons used from font awesome were chosen for their simplicity to ensure all 
 
 - __Colours__
 
-The primary colours used in the background are black backgrounds and a contrasting bright orange. The image used as a central background does not have any distinctive colours itself, but fades from a light white centre to darker sides, covered in graffiti.  
+The primary colours used in the background are black backgrounds and a contrasting bright orange. The image used as a central background does not have any distinctive colours itself, but fades from a light off-white centre to darker sides, covered in graffiti.  
 
 
-![Site Colours](documentation/screenshots/site-colours.png)
+![Site Colours](documentation/screenshots/colours.png)
 
 - __First Time Users__
 
@@ -111,7 +111,7 @@ As part of the planning, I completed the below Wireframes using Balsamiq:
   - The credits section provides the user with information on the creators of the loops used in the loop player, alongside a closer look at the individual images used. 
   - The aim of this section is to firstly provide credit to the creators of the content used, and secondly to encourage potential creators to submit thier own ideas for potential use in the loop player, via the contact page. 
 
-![Footer](documentation/screenshots/footer.png)
+![Footer](documentation/screenshots/credits.png)
 
 
 
@@ -120,14 +120,14 @@ As part of the planning, I completed the below Wireframes using Balsamiq:
   - This page will allow the user to directly contact the page administrators. It also provides an oppurtunity for potential creators to submit music to be featured in the loop player section, and subsequently be credited in the credits section. 
   - This page has used emailJS to provide contact requests to the page administration. 
 
-![Demo Page](documentation/screenshots/demopage.png)
+![Demo Page](documentation/screenshots/contact-chrome-desktop.png)
 
 - __Confirmation Page__
 
   - This page will confirm to the user that their email has been sent. This will also notify the user that they will be redirected to the home page in ten seconds
 
 
-![Demo Page](documentation/screenshots/demopage.png)
+![Demo Page](documentation/screenshots/confirmation.png)
 
 ### Future Features
 

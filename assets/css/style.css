@@ -76,7 +76,7 @@ header {
 
 /* modal */
 
-#instructions-button {
+.instructions-button {
   background-color: rgba(0, 0, 0, 0.9);
   color: #f46703;
   align-items: center;
