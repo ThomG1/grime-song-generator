@@ -2,7 +2,7 @@
 
 The Grime Song Generator is a tool for music producers, makers and fans to explore the sounds of the 'Grime' genre. This application provides a sketchpad for users to quickly create melodies and compositions, with the option of doing so over a wide choice of backing tracks in order to get a feel for the genre, as well as the creative and techical processes involved in the creation of music. 
 
-![Mock Up](documentation/screenshots/mockups1.jpg)
+![Mock Up](documentation/screenshots/responsive.png)
 
 
 The application consists of four sections: the instructions section, the sound selection section, the playground section, and the loop player section.
@@ -73,21 +73,21 @@ As part of the planning, I completed the below Wireframes using Balsamiq:
   - The title section sits on the opposite side to the Navbar, stating the title of the page in a clear and noticable way. 
  
 
-![Home Page](documentation/screenshots/homepage.png)
+![Title Page](documentation/screenshots/navbar.png)
 
 - __Instructions Section__
 
   - The 'Instructions' section will allow the user to quickly understand how to get the most from the site, depending on their device. It will outline the keys or actions needed to trigger sounds, or how selecting a different soundset will give them access to multiple options. 
   - This section will remain stylistically in tune with the rest of the site, including clear orange writing. The instructions section itself is easy to find, and the user will be able to return to the site, either by clicking close, or clicking off the instructions window.  
 
-  ![About](documentation/screenshots/about-screenshot.png)
+  ![Instructions](documentation/screenshots/instructions.png)
 
 - __Sound Selector Section__
 
   - This section will allow the user to choose from a selection of sounds to use. At present, there are three distinct sound sets to choose from, all stylistically different from each other, to provide the user with a range of tones to begin creating music with. 
   - This section provides the user with a slick dropdown menu, making it simple and effective for the user to choose.  
 
-    ![Latest](documentation/screenshots/latest-screenshot.png)
+    ![SoundSelector](documentation/screenshots/soundsets.png)
   
   - __Playground Section__
 
@@ -95,7 +95,7 @@ As part of the planning, I completed the below Wireframes using Balsamiq:
   - This section contains 4 pads the user can play per sound set. The pads are black, and flash orange when played, providing an immersive experience when the audio and visual effects work together.  
 
 
-     ![Releases](documentation/screenshots/releases-screenshot.png)
+     ![Playground](documentation/screenshots/playground.png)
 
 - __The Loop Player__ 
 
@@ -103,6 +103,8 @@ As part of the planning, I completed the below Wireframes using Balsamiq:
   - The loop player is designed to imitate a vinyl player, including a spinning image in the centre. 
   - The loop player includes a play / pause button, and a button to skip forwards or backwards if needed. This provides the user with a large amount of choice and control over the site. 
   - The loop player feautures 5 original tracks with individual artworks. 
+
+  ![LoopPlayer](documentation/screenshots/loopplayer.png)
 
   - __The Credits Section__ 
   
