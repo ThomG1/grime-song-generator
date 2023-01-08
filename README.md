@@ -289,19 +289,56 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ThomG1/grime-song-generator)
 
+#### Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://github.com/ThomG1/grime-song-generator) 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone my repository:
+	- `git clone https://github.com/ThomG1/grime-song-generator.git`
+7. Press Enter to create your local clone.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ThomG1/grime-song-generator)
+
+Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
+A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+
+#### Forking
+
+
+You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ThomG1/grime-song-generator)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
 
 ## Credits 
 
-
-
 ### Content 
-- The 'playground' section with playable pads uses partial code from and was inspired by [Wes Bos](https://www.youtube.com/watch?v=VuN8qwZoego&t=166s)
+- [Wes Bos](https://www.youtube.com/watch?v=VuN8qwZoego&t=166s) was used to help design the functionality of the 'playground' section with playable pads using partial code from this, particularly in assigning data-keys to play a sound.
+- [Traversy Media](https://www.youtube.com/watch?v=QTHRWGn_sJw) was used to help design and build the functionality and aesthetic of the loop player section with play, pause, next and previous functions used here. This includes the spinning disc feature of the player.  
+- [Code with Voran](https://www.youtube.com/watch?v=dgcYOm8n8ME) was used to help the functionality of the contact page emailJS feature.
 - [Bootstrap](https://getbootstrap.com) version 5.2 has been used throughout for responsiveness.
-- Partial sections of the code were taken from Code Institute's [Love Running](https://codeinstitute.net/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+UK+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=1578649861&hsa_grp=62188641240&hsa_ad=581730217381&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=EAIaIQobChMIzrnC7PL5-gIVjYFQBh3IeAm_EAAYASAAEgIoHvD_BwE) and Resume Projects.
-- The icons in the audio player were taken from [Font Awesome](https://fontawesome.com/)
+- [Font Awesome](https://fontawesome.com/) was used for the icons in the loop player
+
 
 
 ### Media
 
 - All images used throughout the website are owned by https://github.com/ThomG1. 
 - All sounds and music used throughout the website are owned by https://github.com/ThomG1. (Names used during the credit section are used for the purpose of making the site appear real )
+
+
+### Acknowledgements
+
+
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/username) for their support throughout the development of this project.
+- I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
