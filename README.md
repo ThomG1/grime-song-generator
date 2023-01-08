@@ -188,20 +188,20 @@ Additional features that are currently being considered for future implementatio
  
   - Home Page
 
-    ![Home-desktop](documentation/screenshots/firefox-home.png)
+    ![Home-desktop](documentation/screenshots/home-chrome-desktop.png)
    
-    ![Home-tablet](documentation/screenshots/home-tablet.png)
+    ![Home-tablet](documentation/screenshots/home-tablet-chrome.png)
    
-    ![Home-phone](documentation/screenshots/home-phone.jpeg)
+    ![Home-phone](documentation/screenshots/home-phone-safari.jpg)
 
 
   - Contact Page
 
-    ![Demos-desktop](documentation/screenshots/firefox-demos.png)
+    ![Contact-desktop](documentation/screenshots/contact-chrome-desktop.png)
 
-    ![Demos-tablet](documentation/screenshots/demos-tablet.png)
+    ![Contact-tablet](documentation/screenshots/contact-tablet-chrome.png)
 
-    ![Demos-phone](documentation/screenshots/demos-phone.jpeg)
+    ![Contact-phone](documentation/screenshots/contact-phone-safari.jpg)
 
   ### Browser Compatability
 
@@ -209,22 +209,22 @@ Additional features that are currently being considered for future implementatio
 
   - Chrome
 
-     ![Chrome-home](documentation/screenshots/chrome-home.png)
+     ![Chrome-home](documentation/screenshots/home-chrome-desktop.png)
 
-     ![Chrome-contact](documentation/screenshots/chrome-demos.png)
+     ![Chrome-contact](documentation/screenshots/contact-chrome-desktop.png)
 
 
   - Firefox 
 
-     ![Firefox-home](documentation/screenshots/firefox-home.png)
+     ![Firefox-home](documentation/screenshots/home-firefox-desktop.png)
 
-     ![Firefox-contact](documentation/screenshots/firefox-demos.png)
+     ![Firefox-contact](documentation/screenshots/contact-firefox-desktop.png)
 
   - Safari
 
-     ![Safari-Home](documentation/screenshots/safari-home.png)
+     ![Safari-Home](documentation/screenshots/home-safari-desktop.png)
 
-     ![Safari-Contact](documentation/screenshots/safari-demos.png)
+     ![Safari-Contact](documentation/screenshots/contact-safari-desktop.png)
 
   ### Bugs
 
