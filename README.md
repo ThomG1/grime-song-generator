@@ -163,38 +163,21 @@ Additional features that are currently being considered for future implementatio
 
 I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
 
-- If you are copying/pasting your HTML code, use this link: https://validator.w3.org/#validate_by_input
-- (*recommended*) If you are using the live deployed site pages, use this link: https://validator.w3.org/#validate_by_uri
 
-It's recommended to validate the live pages (each of them) using the deployed URL.
-This will give you a custom URL as well, which you can use on your testing documentation.
-It makes it easier to return back to a page to validate it again in the future.
-The URL will look something like this:
-
-- `https://validator.w3.org/nu/?doc=https%3A%2F%2FThomG1.github.io%2Fgrime-song-generator%2Findex.html`
 
 Sample HTML code validation documentation (tables are extremely helpful!):
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FThomG1.github.io%2Fgrime-song-generator%2Findex.html) | ![screenshot](documentation/html-validation-home.png) | Section lacks header h2-h6 warning |
-| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FThomG1.github.io%2Fgrime-song-generator%2Fcontact.html) | ![screenshot](documentation/html-validation-contact.png) | obsolete iframe warnings |
-| Quiz | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2FThomG1.github.io%2Fgrime-song-generator%2Fquiz.html) | ![screenshot](documentation/html-validation-quiz.png) | Pass: No Errors |
-| Add Blog | n/a | ![screenshot](documentation/html-validation-add-blog.png) | Duplicate IDs found, and fixed |
-| Checkout | n/a | ![screenshot](documentation/html-validation-checkout.png) | Pass: No Errors |
-| x | x | x | repeat for all remaining HTML files |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthomg1.github.io%2Fgrime-song-generator%2Fl) | ![screenshot](documentation/screenshots/index-validation.png) | Pass: No Errors |
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthomg1.github.io%2Fgrime-song-generator%2Fcontact.html) | ![screenshot](documentation/screenshots/contact-validation.png)  | Pass: No Errors |
+| Confirmation | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthomg1.github.io%2Fgrime-song-generator%2Fconfirmation.html) | ![screenshot](documentation/screenshots/confirmation-validation.png) | Pass: No Errors |
+
 
 ### CSS
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-- If you are copying/pasting your HTML code, use this link: https://jigsaw.w3.org/css-validator/#validate_by_input
-- (*recommended*) If you are using the live deployed site, use this link: https://jigsaw.w3.org/css-validator/#validate_by_uri
-
-It's recommended to validate the live site if you only have a single CSS file using the deployed URL.
-This will give you a custom URL as well, which you can use on your testing documentation.
-It makes it easier to return back to the page to validate it again in the future.
-The URL will look something like this:
 
 - `https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FThomG1.github.io%2Fgrime-song-generator`
 
@@ -211,9 +194,8 @@ Sample CSS code validation documentation (tables are extremely helpful!):
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FThomG1.github.io%2Fgrime-song-generator) | ![screenshot](documentation/css-validation-style.png) | Pass: No Errors |
-| checkout.css | n/a | ![screenshot](documentation/css-validation-checkout.png) | Pass: No Errors |
-| x | x | x | repeat for all remaining CSS files |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FThomG1.github.io%2Fgrime-song-generator) | ![screenshot](documentation/screenshots/css-validation-1.png) | This screenshot demonstrates there are 16 errors highlighted, this due to Bootstrap|
+| style.css | [[screenshot](documentation/screenshots/css-validation-2.png) | When the code itself is pasted in, this displays no errors|
 
 
    ### JavaScript
@@ -223,14 +205,6 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 If using modern JavaScript (ES6) methods, then make sure to include the following
 line at the very top of every single JavaScript file (this should remain in your files for submission):
 
-`/* jshint esversion: 11 */`
-
-If you are also including jQuery (`$`), then the updated format will be:
-
-`/* jshint esversion: 11, jquery: true */`
-
-This allows the JShint validator to recognize modern ES6 methods, such as:
-`let`, `const`, `template literals`, `arrow functions (=>)`, etc.
 
 **IMPORTANT**: External resources
 

@@ -1,7 +1,5 @@
 // Soundset Selector
 
-let currentSounds = 'g-sounds';
-
 const selectElement = document.getElementById('soundsets');
 
 selectElement.addEventListener("change", function() {
@@ -46,7 +44,7 @@ function playSound(e) {
     audio.currentTime = 0;
     audio.play();
   
-    console.log('activated')
+    console.log('activated');
   }
 }
 
@@ -66,8 +64,7 @@ const prevBtn = document.getElementById('prev');
 const nextBtn = document.getElementById('next');
 const audio = document.getElementById('audio');
 const cover = document.getElementById('cover');
-const currTime = document.querySelector('#currTime');
-const durTime = document.querySelector('#durTime');
+
 
 const songs = ['d-loop-1', 'd-loop-2', 'd-loop-3', 'd-loop-4', 'd-loop-5'];
 
