@@ -49,7 +49,13 @@ The primary colours used in the background are black backgrounds and a contrasti
 
 As part of the planning, I completed the below Wireframes using Balsamiq: 
 
-![Wireframes](documentation/wireframes/allwireframes.png)
+![Home Desktop Wireframe](documentation/wireframes/home-desktop-wf.png)
+![Home Tablet Wireframe](documentation/wireframes/home-tablet-wf.png)
+![Home Phone Wireframe](documentation/wireframes/home-phone-wf.png)
+![Contact Desktop Wireframe](documentation/wireframes/contact-desktop-wf.png)
+![Contact Tablet Wireframe](documentation/wireframes/contact-tablet-wf.png)
+![Contact Phone Wireframe](documentation/wireframes/contact-phone-wf.png)
+
 
 
 
@@ -386,6 +392,6 @@ You can fork this repository by using the following steps:
 ### Acknowledgements
 
 
-- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/username) for their support throughout the development of this project.
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
