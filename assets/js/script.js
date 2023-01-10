@@ -1,5 +1,5 @@
 /* jshint esversion: 11 */
-// Soundset Selector
+// Soundset Selector - allows user to choose from multiple sound sets
 
 const selectElement = document.getElementById('soundsets');
 
@@ -10,7 +10,7 @@ selectElement.addEventListener("change", function() {
   });
 });
 
-// Playground
+// Playground - allows user to click pads or press keys to generate a sound
 
 function removeTransition(e) {
 
@@ -55,7 +55,7 @@ keys.forEach((key) => {
 });
 window.addEventListener('keydown', playSound, false);
 
-// loop player 
+// loop player - allows user to play backing tracks to play along to
 
 const musicContainer = document.getElementById('music-container');
 const playBtn = document.getElementById('play');
@@ -78,7 +78,7 @@ function loadSong(song) {
   cover.src = `assets/images/${song}.jpg`;
 }
 
-// song controls
+// song controls - allows user to play track
 function playSong() {
   musicContainer.classList.add('play');
   playBtn.querySelector('i.fas').classList.remove('fa-play');
@@ -87,7 +87,7 @@ function playSong() {
   audio.play();
 }
 
-// Pause track
+// Pause track - allows usr to pause track
 function pauseSong() {
   musicContainer.classList.remove('play');
   playBtn.querySelector('i.fas').classList.add('fa-play');
@@ -96,7 +96,7 @@ function pauseSong() {
   audio.pause();
 }
 
-// Previous track
+// Previous track - allows user to play previous track
 function prevSong() {
   songIndex--;
 
@@ -109,7 +109,7 @@ function prevSong() {
   playSong();
 }
 
-// Next tack
+// Next tack - allows user to play next track
 function nextSong() {
   songIndex++;
 
