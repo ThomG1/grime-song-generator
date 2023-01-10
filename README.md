@@ -185,55 +185,28 @@ Sample HTML code validation documentation (tables are extremely helpful!):
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
 
-- `https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FThomG1.github.io%2Fgrime-song-generator`
 
-If you have multiple CSS files, then individual [validation by input](https://jigsaw.w3.org/css-validator/#validate_by_input)
-is recommended for the additional CSS files.
-
-**IMPORTANT**: Third-Party tools
-
-If you're using extras like Bootstrap, Materialize, Font Awesome, then sometimes the validator
-will attempt to also validate this code, even if it's not part of your own actual code.
-You are not required to validate the external libraries or frameworks!
-
-Sample CSS code validation documentation (tables are extremely helpful!):
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
 | style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FThomG1.github.io%2Fgrime-song-generator) | ![screenshot](documentation/screenshots/css-validation-1.png) | This screenshot demonstrates there are 16 errors highlighted, this due to Bootstrap|
-| style.css | [[screenshot](documentation/screenshots/css-validation-2.png) | When the code itself is pasted in, this displays no errors|
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2FThomG1.github.io%2Fgrime-song-generator) | ![screenshot](documentation/screenshots/css-validation-2.png) | This screenshot demonstrates when the code is pasted in, there are no errors|
+
 
 
    ### JavaScript
 
 I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
 
-If using modern JavaScript (ES6) methods, then make sure to include the following
-line at the very top of every single JavaScript file (this should remain in your files for submission):
 
-
-**IMPORTANT**: External resources
-
-Sometimes we'll write JavaScript that imports variables from other files, such as an array of questions
-from `questions.js`, which are used within the main `script.js` file elsewhere.
-If that's the case, the JShint validation tool doesn't know how to recognize unused variables
-that would normally be imported locally in your code.
-These warnings are acceptable to showcase on your screenshots.
-
-The same thing applies when using external libraries such as Stripe, Leaflet, Bootstrap, Materialize, etc..
-To instantiate these components, we need to use their respective declarator.
-Again, the JShint validation tool would flag these as undefined/unused variables.
-These warnings are acceptable to showcase on your screenshots.
-
-Sample JS code validation documentation (tables are extremely helpful!):
 
 | File | Screenshot | Notes |
 | --- | --- | --- |
-| script.js | ![screenshot](documentation/js-validation-script.png) | Unused variables from external files |
-| questions.js | ![screenshot](documentation/js-validation-questions.png) | Pass: No Errors |
-| quiz.js | ![screenshot](documentation/js-validation-quiz.png) | Unused variables from external files |
-| stripe_elements.js | ![screenshot](documentation/js-validation-stripe.png) | Undefined Stripe variable |
-| x | x | x | repeat for all remaining JavaScript files |
+| script.js | ![screenshot](documentation/screenshots/script-js-val-1.png) |
+| script.js | ![screenshot](documentation/screenshots/script-js-val-2.png) |
+| script.js | ![screenshot](documentation/screenshots/script-js-val-3.png) |
+| contact.js | ![screenshot](documentation/screenshots/contact-js-val.png) | 
+
 
   ### Responsiveness
 
@@ -320,8 +293,29 @@ Sample JS code validation documentation (tables are extremely helpful!):
 
 ![Demo Page](documentation/screenshots/demopage.png)
 
+## Defensive Programming
 
+| Page | User Action | Expected Result | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| Home Page | | | | |
 
+| | Click on Home link in navbar | Redirection to Home page | Pass | |
+| | Click on instructions modal | Opens instructions information for users| Pass | |
+| | Click on Contact link in navbar | Redirection to Contact page | Pass | |
+| | Change Soundset | Allow user to choose a different soundset | Pass | |
+| | Click pads in playground section 1-4 | Allow user to play sound by clicking pads | Pass | |
+| | Press keys 1-4 on keyboard to play sounds | Allow user to play sounds by pressing 1-4 on keyboard | Pass | |
+| | Press play/pause on loop player | Allow user to play/pause loop player | Pass | |
+| | Press skip forward/backward buttons on loop player | Allow user to skip forward/backward  | Pass | |
+| | Click on credits modal | Opens credits modal information | Pass | |
+
+| Contact Page | | | | |
+| | Click on Home link in navbar | Redirection to Home page | Pass | |
+| | Click on Contact link in navbar | Redirection to Contact page | Pass | |
+| | Enter first/last name | Field will accept freeform text | Pass | |
+| | Enter valid email address | Field will only accept email address format | Pass | |
+| | Enter message in textarea | Field will accept freeform text | Pass | |
+| | Click the Submit button | Submits via email JS and Redirects user to confirmation page | Pass | Confirmation page redirects user home in 10 seconds
 
 ## Deployment
 
@@ -333,14 +327,6 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 The live link can be found [here](https://github.com/ThomG1/grime-song-generator)
 
 ### Local Deployment
-
-In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
-
-- `git clone https://github.com/ThomG1/grime-song-generator.git`
-
-Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/ThomG1/grime-song-generator)
 
 #### Cloning
 
