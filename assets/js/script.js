@@ -1,3 +1,4 @@
+/* jshint esversion: 11 */
 // Soundset Selector
 
 const selectElement = document.getElementById('soundsets');
@@ -43,8 +44,6 @@ function playSound(e) {
     key.classList.add('playing');
     audio.currentTime = 0;
     audio.play();
-  
-    console.log('activated');
   }
 }
 
