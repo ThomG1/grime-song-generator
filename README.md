@@ -117,7 +117,7 @@ As part of the planning, I completed the below Wireframes using Balsamiq:
   - The credits section provides the user with information on the creators of the loops used in the loop player, alongside a closer look at the individual images used. 
   - The aim of this section is to firstly provide credit to the creators of the content used, and secondly to encourage potential creators to submit thier own ideas for potential use in the loop player, via the contact page. 
 
-![Footer](documentation/screenshots/credits.png)
+![Credits](documentation/screenshots/credits.png)
 
 
 
@@ -126,14 +126,18 @@ As part of the planning, I completed the below Wireframes using Balsamiq:
   - This page will allow the user to directly contact the page administrators. It also provides an oppurtunity for potential creators to submit music to be featured in the loop player section, and subsequently be credited in the credits section. 
   - This page has used emailJS to provide contact requests to the page administration. 
 
-![Demo Page](documentation/screenshots/contact-chrome-desktop.png)
+![Contact](documentation/screenshots/contact-chrome-desktop.png)
 
 - __Confirmation Page__
 
   - This page will confirm to the user that their email has been sent. This will also notify the user that they will be redirected to the home page in ten seconds
 
 
-![Demo Page](documentation/screenshots/confirmation.png)
+![Confirmation](documentation/screenshots/confirmation.png)
+
+
+![email](documentation/screenshots/emailjs.png)
+
 
 ### Future Features
 
@@ -263,11 +267,11 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 1.As a first time user, I easily understand the main purpose of the site as a basic music making, and listening tool.
 
 
- ![About](documentation/screenshots/about-screenshot.png)
+ ![Home](documentation/screenshots/home-chrome-desktop.png.png)
 
 2.As a first time user, I quickly get an understanding of how to use the site and all of it's features. This is due to the sites clear layout, and features such as the instructions button.
 
- ![Releases](documentation/screenshots/releases-screenshot.png)
+ ![Instructions](documentation/screenshots/instructions.png.png)
 
 3.As a first time user, I have clear and distinguishable sections that are easy to find and move between.
 
@@ -275,23 +279,26 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 4.As a first time user, I am able able to enjoy the design and look of the site, even before I have started using it.
 
-![Footer](documentation/screenshots/footer.png)
+![Home](documentation/screenshots/home-firefox-desktop.png)
 
 5. As a first time user, I am able to quickly and easily start making music.
 
-![Footer](documentation/screenshots/footer.png)
+![Playground](documentation/screenshots/playground.png)
 
 - __Returning Users__
 
 1. As a returning user, I am able to change the sound I used to create with the first time to create a different style of music.
 
+
+![Sound Sets](documentation/screenshots/soundsets.png)
+
 2. As a returning user, I am able to choose from a variety of different backing music to play melodies over.
 
- ![Latest](documentation/screenshots/latest-screenshot.png)
+ ![Loop Player](documentation/screenshots/loopplayer.png)
 
 3. As a returning user, I am able to to contact the page, and am able to send a link to music that can potentially be included in the sites audio player and credits section.  
 
-![Demo Page](documentation/screenshots/demopage.png)
+![Contact](documentation/screenshots/contact-firefox-desktop.png)
 
 ## Defensive Programming
 
@@ -361,8 +368,8 @@ You can fork this repository by using the following steps:
 ## Credits 
 
 ### Content 
-- [Wes Bos](https://www.youtube.com/watch?v=VuN8qwZoego&t=166s) was used to help design the functionality of the 'playground' section with playable pads using partial code from this, particularly in assigning data-keys to play a sound.
-- [Traversy Media](https://www.youtube.com/watch?v=QTHRWGn_sJw) was used to help design and build the functionality and aesthetic of the loop player section with play, pause, next and previous functions used here. This includes the spinning disc feature of the player.  
+- [Wes Bos](https://www.youtube.com/watch?v=VuN8qwZoego&t=166s) was used to help design the functionality of the 'playground' section with playable pads using partial code from this, particularly in assigning data-keys to play a sound. This involves HTML, CSS and Javascript for the playground section. 
+- [Traversy Media](https://www.youtube.com/watch?v=QTHRWGn_sJw) was used to help design and build the functionality and aesthetic of the loop player section with play, pause, next and previous functions used here. This includes the spinning disc feature of the player. This involves HTML, CSS and Javascript for the Loop Player section 
 - [Code with Voran](https://www.youtube.com/watch?v=dgcYOm8n8ME) was used to help the functionality of the contact page emailJS feature.
 - [Bootstrap](https://getbootstrap.com) version 5.2 has been used throughout for responsiveness.
 - [Font Awesome](https://fontawesome.com/) was used for the icons in the loop player
@@ -372,7 +379,7 @@ You can fork this repository by using the following steps:
 ### Media
 
 - All images used throughout the website are owned by https://github.com/ThomG1. 
-- All sounds and music used throughout the website are owned by https://github.com/ThomG1. (Names used during the credit section are used for the purpose of making the site appear real )
+- All sounds and music used throughout the website are owned by https://github.com/ThomG1. (Names used during the credit section are used for the purpose of giving the application a real world feel)
 
 
 ### Acknowledgements
