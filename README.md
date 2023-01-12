@@ -175,11 +175,9 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 
 
-Sample HTML code validation documentation (tables are extremely helpful!):
-
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthomg1.github.io%2Fgrime-song-generator%2Fl) | ![screenshot](documentation/screenshots/index-validation.png) | Pass: No Errors |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthomg1.github.io%2Fgrime-song-generator) | ![screenshot](documentation/screenshots/index-validation.png) | Pass: No Errors |
 | Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthomg1.github.io%2Fgrime-song-generator%2Fcontact.html) | ![screenshot](documentation/screenshots/contact-validation.png)  | Pass: No Errors |
 | Confirmation | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fthomg1.github.io%2Fgrime-song-generator%2Fconfirmation.html) | ![screenshot](documentation/screenshots/confirmation-validation.png) | Pass: No Errors |
 
@@ -302,40 +300,27 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 ## Defensive Programming
 
-
 | Home Page | | | | |
-
+| --- | --- | --- | --- | --- |
 | | Click on Home link in navbar | Redirection to Home page | Pass | |
-
 | | Click on Contact link in navbar | Redirection to Contact page | Pass | |
-
-| | Click on instructions modal | Opens instructions information for users| Pass | |
-
+| | Click on instructions modal | Opens instructions information for users | Pass | |
 | | Change Soundset | Allow user to choose a different soundset | Pass | |
-
 | | Click pads in playground section 1-4 | Allow user to play sound by clicking pads | Pass | |
-
 | | Press keys 1-4 on keyboard to play sounds | Allow user to play sounds by pressing 1-4 on keyboard | Pass | |
-
 | | Press play/pause on loop player | Allow user to play/pause loop player | Pass | |
-
 | | Press skip forward/backward buttons on loop player | Allow user to skip forward/backward  | Pass | |
+| | Click on credits modal | Opens credits modal information | Pass | | |
 
-| | Click on credits modal | Opens credits modal information | Pass | |
 
 | Contact Page | | | | |
-
+| --- | --- | --- | --- | --- |
 | | Click on Home link in navbar | Redirection to Home page | Pass | |
-
 | | Click on Contact link in navbar | Redirection to Contact page | Pass | |
-
 | | Enter first/last name | Field will accept freeform text | Pass | |
-
 | | Enter valid email address | Field will only accept email address format | Pass | |
-
 | | Enter message in textarea | Field will accept freeform text | Pass | |
-
-| | Click the Submit button | Submits via email JS and Redirects user to confirmation page | Pass | Confirmation page redirects user home in 10 seconds
+| | Click the Submit button | Submits via email JS and Redirects user to confirmation page | Pass | Confirmation page redirects user home in 10 seconds |
 
 ## Deployment
 
