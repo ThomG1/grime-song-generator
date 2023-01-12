@@ -1,5 +1,9 @@
 /* jshint esversion: 11 */
-// Soundset Selector - allows user to choose from multiple sound sets
+
+/*
+** Soundset Selector
+** allows user to choose from multiple sound sets
+*/
 
 const selectElement = document.getElementById('soundsets');
 
@@ -10,7 +14,10 @@ selectElement.addEventListener("change", function() {
   });
 });
 
-// Playground - allows user to click pads or press keys to generate a sound
+/*
+** Playground
+** allows user to click pads or press keys to generate a sound
+*/
 
 function removeTransition(e) {
 
@@ -55,7 +62,10 @@ keys.forEach((key) => {
 });
 window.addEventListener('keydown', playSound, false);
 
-// loop player - allows user to play backing tracks to play along to
+/*
+** Loop Player
+** allows user play/pause backing tracks
+*/
 
 const musicContainer = document.getElementById('music-container');
 const playBtn = document.getElementById('play');
