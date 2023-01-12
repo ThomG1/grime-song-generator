@@ -5,18 +5,18 @@ The Grime Song Generator is a tool for music producers, makers and fans to explo
 ![Mock Up](documentation/screenshots/responsive.png)
 
 
-The application consists of four sections: the instructions section, the sound selection section, the playground section, and the loop player section.
+The application consists of four sections: the instructions section, the sound selection section, the playground section,loop player section and contact page.
 
 ## User Experience (UX)
 
 - __Design Choices__
 
-The overall feel of the site design is gritty, dark and minimal as this matches the style and aethetic of the 'Grime' genre.  
+The overall feel of the site design is gritty, dark and minimal, consistent with the style and aethetic of the 'Grime' genre.  
 
 - __Font__
-The font used throughout the site is Chakra Petch to give the site an urban feel, 
-- __Icons__
-The icons used from font awesome were chosen for their simplicity to ensure all users can identify them.
+The font used throughout the site is Chakra Petch to give the site an industrial look.
+
+![navbar](documentation/screenshots/navbar.png)
 
 - __Colours__
 
@@ -27,13 +27,13 @@ The primary colours used in the background are black backgrounds and a contrasti
 
 - __First Time Users__
 
-1.As a first time user, I want to easily understand the main purpose of the site as a basic music making, and listening tool. 
+1. As a first time user, I want to easily understand the main purpose of the site as a basic music making, and listening tool. 
 
-2.As a first time user, I want to be able to get an understanding of how to use the site and all of it's features. 
+2. As a first time user, I want to be able to get an understanding of how to use the site and all of it's features. 
 
-3.As a first time user, I want clear and distinguishable sections that are easy to find and move between. 
+3. As a first time user, I want clear and distinguishable sections that are easy to find and move between. 
 
-4.As a first time user, I want to be able to enjoy the clean but eye catching design of the site, even before I have started using it. 
+4. As a first time user, I want to be able to enjoy the clean but eye catching design of the site, even before I have started using it. 
 
 5. As a first time user, I want to be able to quickly and easily start making music. 
 
@@ -94,8 +94,8 @@ As part of the planning, I completed the below Wireframes using Balsamiq:
   - This section provides the user with a slick dropdown menu, making it simple and effective for the user to choose.  
 
     ![SoundSelector](documentation/screenshots/soundsets.png)
-  
-  - __Playground Section__
+ 
+ - __Playground Section__
 
   - This section will allow the user to press certain keys, or if on a phone or tablet to click the pads to trigger the sounds. This was built so that whatever device was being used, it would retain a 'playable' approach for the user, keeping the site intuitive and fresh for users, by allowing them to improvise and to apply different speeds, rhythms to thier melodies. 
   - This section contains 4 pads the user can play per sound set. The pads are black, and flash orange when played, providing an immersive experience when the audio and visual effects work together.  
@@ -112,7 +112,7 @@ As part of the planning, I completed the below Wireframes using Balsamiq:
 
   ![LoopPlayer](documentation/screenshots/loopplayer.png)
 
-  - __The Credits Section__ 
+- __Credits Section__
   
   - The credits section provides the user with information on the creators of the loops used in the loop player, alongside a closer look at the individual images used. 
   - The aim of this section is to firstly provide credit to the creators of the content used, and secondly to encourage potential creators to submit thier own ideas for potential use in the loop player, via the contact page. 
@@ -160,7 +160,7 @@ Additional features that are currently being considered for future implementatio
 - [Git](https://git-scm.com/) - Used for version control
 - [GitHub](https://github.com/) - Used for online storage of code
 - [Gitpod](https://www.gitpod.io)- Used for cloud-based IDE editor
-- [Balsamiq](https://balsamiq.com/) - Used for wireframes
+- [Uizard](https://uizard.io/) - Used for wireframes
 
 
 
@@ -267,11 +267,11 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 1.As a first time user, I easily understand the main purpose of the site as a basic music making, and listening tool.
 
 
- ![Home](documentation/screenshots/home-chrome-desktop.png.png)
+ ![Home](documentation/screenshots/home-chrome-desktop.png)
 
 2.As a first time user, I quickly get an understanding of how to use the site and all of it's features. This is due to the sites clear layout, and features such as the instructions button.
 
- ![Instructions](documentation/screenshots/instructions.png.png)
+ ![Instructions](documentation/screenshots/instructions.png)
 
 3.As a first time user, I have clear and distinguishable sections that are easy to find and move between.
 
@@ -302,26 +302,39 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 
 ## Defensive Programming
 
-| Page | User Action | Expected Result | Pass/Fail | Comments |
-| --- | --- | --- | --- | --- |
+
 | Home Page | | | | |
 
 | | Click on Home link in navbar | Redirection to Home page | Pass | |
-| | Click on instructions modal | Opens instructions information for users| Pass | |
+
 | | Click on Contact link in navbar | Redirection to Contact page | Pass | |
+
+| | Click on instructions modal | Opens instructions information for users| Pass | |
+
 | | Change Soundset | Allow user to choose a different soundset | Pass | |
+
 | | Click pads in playground section 1-4 | Allow user to play sound by clicking pads | Pass | |
+
 | | Press keys 1-4 on keyboard to play sounds | Allow user to play sounds by pressing 1-4 on keyboard | Pass | |
+
 | | Press play/pause on loop player | Allow user to play/pause loop player | Pass | |
+
 | | Press skip forward/backward buttons on loop player | Allow user to skip forward/backward  | Pass | |
+
 | | Click on credits modal | Opens credits modal information | Pass | |
 
 | Contact Page | | | | |
+
 | | Click on Home link in navbar | Redirection to Home page | Pass | |
+
 | | Click on Contact link in navbar | Redirection to Contact page | Pass | |
+
 | | Enter first/last name | Field will accept freeform text | Pass | |
+
 | | Enter valid email address | Field will only accept email address format | Pass | |
+
 | | Enter message in textarea | Field will accept freeform text | Pass | |
+
 | | Click the Submit button | Submits via email JS and Redirects user to confirmation page | Pass | Confirmation page redirects user home in 10 seconds
 
 ## Deployment
@@ -331,7 +344,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://github.com/ThomG1/grime-song-generator)
+The live link can be found [here](https://thomg1.github.io/grime-song-generator/)
 
 ### Local Deployment
 
